@@ -87,7 +87,7 @@ async function addNewProduct() {
         {
             type: 'input',
             name: 'price',
-            message: 'Price (USD):',
+            message: 'Price (INR):',
             validate: input => !isNaN(parseFloat(input)) || 'Must be a number.'
         },
         {
@@ -101,6 +101,13 @@ async function addNewProduct() {
             message: 'Image URL:',
             validate: input => input.startsWith('http') || 'Must be a valid URL.'
         }
+        {
+    type: 'input',
+    name: 'affiliateLink',
+    message: 'Affiliate Buy Link (Amazon / Flipkart / etc.):',
+    validate: input => input.startsWith('http') || 'Must be a valid URL.'
+}
+
     ]);
 
     // Transform data
@@ -208,3 +215,4 @@ async function commitProduct(product) {
 }
 
 main().catch(console.error);
+
