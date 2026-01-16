@@ -20,10 +20,10 @@ async function loadProducts() {
     try {
         // Fetch all data files in parallel
         const responses = await Promise.all(PRODUCT_FILES.map(file => fetch(file).then(res => {
-            if (!res.ok) throw new Error(`Failed to load ${file}`);
+            if (!res.ok) throw new Error(`Failed to load {file}`);
             return res.json();
         }).catch(err => {
-            console.warn(`Error loading ${file}:`, err);
+            console.warn(`Error loading ₹{file}:`, err);
             return [];
         })));
 
@@ -64,21 +64,21 @@ function renderProducts(products) {
     products.forEach(product => {
         const card = document.createElement('a');
         const productId = product.id || product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        card.href = `product-detail.html?id=${productId}`;
+        card.href = `product-detail.html?id=₹{productId}`;
         card.className = 'product-card group block animate-slide-up';
         card.dataset.category = product.gender;
 
         card.innerHTML = `
           <div class="relative rounded-xl overflow-hidden glass mb-4">
-              <img src="${product.imageUrl}"
-                  alt="${product.name}"
+              <img src="₹{product.imageUrl}"
+                  alt="₹{product.name}"
                   class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-700">
               <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300">
               </div>
           </div>
-          <h3 class="font-serif text-lg text-white group-hover:text-luxe-gold transition-colors">${product.name}</h3>
-          <p class="text-gray-500 text-sm mb-2 capitalize">${product.gender} / ${product.category}</p>
-          <span class="text-luxe-gold font-bold">$${product.price}</span>
+          <h3 class="font-serif text-lg text-white group-hover:text-luxe-gold transition-colors">₹{product.name}</h3>
+          <p class="text-gray-500 text-sm mb-2 capitalize">₹{product.gender} / ₹{product.category}</p>
+          <span class="text-luxe-gold font-bold">₹₹{product.price}</span>
       `;
 
         productGrid.appendChild(card);
