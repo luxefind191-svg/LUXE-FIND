@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Products | Luxe Find</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'luxe-gold': '#D4AF37',
+                        'luxe-gold-light': '#F3E5AB',
+                        'luxe-black': '#1A1A1A',
+                        'luxe-dark': '#121212',
+                        'luxe-gray': '#F5F5F5',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 1s ease-out forwards',
+                        'slide-up': 'slideUp 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .glass {
+          @apply bg-white/10 backdrop-blur-lg border border-white/20;
+        }
+        .text-gradient {
+          @apply bg-clip-text text-transparent bg-gradient-to-r from-luxe-gold to-luxe-gold-light;
+        }
+      }
+      body {
+        background: radial-gradient(circle at top center, #1a1a1a 0%, #000000 100%);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+      }
+      .bg-texture-marble {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: #121212;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231F1F1F'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23D4AF37' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23D4AF37' stop-opacity='0.05'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+        background-size: cover;
+        pointer-events: none;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="bg-texture-marble"></div>
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-luxe-dark/95 shadow-lg border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html"><span class="font-serif text-2xl font-bold text-gradient">Luxe Find</span></a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="text-gray-300 hover:text-luxe-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                        <a href="products.html?category=women"
+                            class="text-gray-300 hover:text-luxe-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">Women</a>
+                        <a href="products.html?category=men"
+                            class="text-gray-300 hover:text-luxe-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">Men</a>
+                        <a href="products.html"
+                            class="text-white hover:text-luxe-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">All
+                            Products</a>
+                        <a href="contact.html"
+                            class="text-gray-300 hover:text-luxe-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <!-- Mobile menu button -->
+                    <button type="button" id="mobile-menu-btn"
+                        class="text-gray-300 hover:text-white focus:outline-none p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-luxe-dark/95 backdrop-blur-lg border-t border-white/10 absolute w-full left-0 top-20 shadow-xl transition-all duration-300 transform origin-top">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="text-gray-300 block px-3 py-4 rounded-md text-base font-medium hover:bg-luxe-gold/20 hover:text-luxe-gold transition-colors text-center border-b border-white/5">Home</a>
+                <a href="products.html?category=women"
+                    class="text-gray-300 block px-3 py-4 rounded-md text-base font-medium hover:bg-luxe-gold/20 hover:text-luxe-gold transition-colors text-center border-b border-white/5">Women</a>
+                <a href="products.html?category=men"
+                    class="text-gray-300 block px-3 py-4 rounded-md text-base font-medium hover:bg-luxe-gold/20 hover:text-luxe-gold transition-colors text-center border-b border-white/5">Men</a>
+                <a href="products.html"
+                    class="text-white block px-3 py-4 rounded-md text-base font-medium hover:bg-luxe-gold/20 hover:text-luxe-gold transition-colors text-center border-b border-white/5">All
+                    Products</a>
+                <a href="contact.html"
+                    class="text-gray-300 block px-3 py-4 rounded-md text-base font-medium hover:bg-luxe-gold/20 hover:text-luxe-gold transition-colors text-center">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="pt-32 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+        <h1 class="font-serif text-4xl md:text-5xl font-bold text-white mb-4">Curated Collection</h1>
+        <p class="text-gray-400 max-w-2xl mx-auto">Explore our exclusive range of premium beauty essentials.</p>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 flex justify-center space-x-4">
+        <button
+            class="filter-btn active px-6 py-2 rounded-full border border-luxe-gold bg-luxe-gold text-luxe-dark font-medium hover:bg-white hover:text-black transition-all duration-300"
+            data-filter="all">All</button>
+        <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white font-medium hover:border-luxe-gold hover:text-luxe-gold transition-all duration-300"
+            data-filter="women">Women</button>
+        <button
+            class="filter-btn px-6 py-2 rounded-full border border-white/20 text-white font-medium hover:border-luxe-gold hover:text-luxe-gold transition-all duration-300"
+            data-filter="men">Men</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8" id="product-grid">
+            <!-- Dynamic Content Loaded Here -->
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/products.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            // Note: productCards must be queried dynamically after load
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filter = btn.getAttribute('data-filter');
+                    applyFilter(filter);
+
+                    // Update Active Interface
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-luxe-gold', 'text-luxe-dark', 'border-luxe-gold');
+                        b.classList.add('text-white', 'border-white/20');
+                    });
+                    btn.classList.remove('text-white', 'border-white/20');
+                    btn.classList.add('bg-luxe-gold', 'text-luxe-dark', 'border-luxe-gold');
+                });
+            });
+
+            // Make applyFilter global or accessible if needed, or just rely on click triggers
+            window.applyFilter = function (filter) {
+                const productCards = document.querySelectorAll('.product-card'); // Query fresh every time
+                productCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        // Re-trigger animation
+                        card.classList.remove('animate-slide-up');
+                        void card.offsetWidth; // Trigger reflow
+                        card.classList.add('animate-slide-up');
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
