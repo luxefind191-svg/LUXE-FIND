@@ -13,12 +13,12 @@
 
 const products = [
     // Sample Products - Replace with your actual products
-    {
-        "id": "product-1737270000001",
-        "title": "Premium Leather Wallet for Men",
-        "price": "₹1,299",
-        "image": "https://m.media-amazon.com/images/I/71J8ZX8ZGXL._SX679_.jpg",
-        "link": "https://amzn.to/sample1",
+       {
+        "id": "product-1768830108042",
+        "title": "Muuchstac Ocean Face Wash for Men | Fight Acne & Pimples, Brighten Skin, Clears Dirt, Oil Control, Refreshing Feel - Multi-Action Formula",
+        "price": "₹290",
+        "image": "https://m.media-amazon.com/images/I/81EGvt3MtGL._SL1500_.jpg",
+        "link": "https://amzn.to/4jNXhHy",
         "category": "Men"
     },
     {
@@ -55,3 +55,4 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
