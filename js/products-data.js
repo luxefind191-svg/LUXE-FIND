@@ -43,7 +43,15 @@ const products = [
         "image": "https://m.media-amazon.com/images/I/81EGvt3MtGL._SL1500_.jpg",
         "link": "https://amzn.to/4jNXhHy",
         "category": "Men"
-    }
+    },
+        {
+        "id": "product-1768918336933",
+        "title": "Lakme Sun Expert Tinted Sunscreen 50 SPF PA+++, Natural Tone, With Cucumber, Lightweight, Ultra Matte Finish, Blocks Upto 97% Harmful Sunrays",
+        "price": "₹390",
+        "image": "https://m.media-amazon.com/images/I/61aXIO7GHWL._SL1000_.jpg",
+        "link": "https://amzn.to/3NpMbfP",
+        "category": "Women"
+    },
 ];
 
 
@@ -51,6 +59,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
