@@ -12,15 +12,6 @@
  */
 
 const products = [
-    // Sample Products - Replace with your actual products
-       {
-        "id": "product-1768830108042",
-        "title": "Muuchstac Ocean Face Wash for Men | Fight Acne & Pimples, Brighten Skin, Clears Dirt, Oil Control, Refreshing Feel - Multi-Action Formula",
-        "price": "₹290",
-        "image": "https://m.media-amazon.com/images/I/81EGvt3MtGL._SL1500_.jpg",
-        "link": "https://amzn.to/4jNXhHy",
-        "category": "Men"
-    },
     {
         "id": "product-1737270000002",
         "title": "Luxury Watch for Men",
@@ -45,9 +36,6 @@ const products = [
         "link": "https://amzn.to/sample4",
         "category": "Women"
     },
-
-    // ADD NEW PRODUCTS BELOW THIS LINE
-    // Paste code generated from product-bot.html here
     {
         "id": "product-1768830108042",
         "title": "Muuchstac Ocean Face Wash for Men | Fight Acne & Pimples, Brighten Skin, Clears Dirt, Oil Control, Refreshing Feel - Multi-Action Formula",
@@ -55,12 +43,14 @@ const products = [
         "image": "https://m.media-amazon.com/images/I/81EGvt3MtGL._SL1500_.jpg",
         "link": "https://amzn.to/4jNXhHy",
         "category": "Men"
-    },
+    }
 ];
+
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
