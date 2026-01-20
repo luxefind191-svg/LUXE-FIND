@@ -162,4 +162,50 @@
 
     <!-- Category Filter -->
     <div class="category-filter">
-        <button class="filter-btn active" o
+        <button class="filter-btn active" onclick="filterProducts('all')">All</button>
+        <button class="filter-btn" onclick="filterProducts('men')">Men</button>
+        <button class="filter-btn" onclick="filterProducts('women')">Women</button>
+    </div>
+
+    <!-- Products Container (CRITICAL) -->
+    <section id="products-container" class="products-container" data-category="all"></section>
+
+    <!-- Affiliate Disclaimer -->
+    <div class="affiliate-disclaimer">
+        <strong>Affiliate Disclosure:</strong>
+        This website contains affiliate links. We may earn a commission at no extra cost to you.
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Luxe Find. All rights reserved.</p>
+        <p style="margin-top: 10px;">Premium curated products</p>
+    </footer>
+
+    <!-- Scripts (ORDER MATTERS) -->
+    <script src="js/products-data.js"></script>
+    <script src="js/product-renderer.js"></script>
+
+    <!-- Filter Logic (FIXED) -->
+    <script>
+        function filterProducts(category) {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            const btnMap = {
+                all: 0,
+                men: 1,
+                women: 2
+            };
+
+            document.querySelectorAll('.filter-btn')[btnMap[category]].classList.add('active');
+
+            if (window.productRenderer) {
+                window.productRenderer.setCategory(category);
+            }
+        }
+    </script>
+
+</body>
+</html>
