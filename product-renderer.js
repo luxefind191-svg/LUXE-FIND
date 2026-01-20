@@ -1,8 +1,5 @@
 /**
  * LUXE FIND - Product Renderer
- * 
- * Dynamically renders product cards from products-data.js
- * Supports category filtering and lazy loading
  */
 
 class ProductRenderer {
@@ -12,9 +9,6 @@ class ProductRenderer {
         this.products = typeof products !== 'undefined' ? products : [];
     }
 
-    /**
-     * Filter products by category
-     */
     getFilteredProducts() {
         if (this.category === 'all') {
             return this.products;
@@ -24,9 +18,6 @@ class ProductRenderer {
         );
     }
 
-    /**
-     * Create a single product card HTML
-     */
     createProductCard(product) {
         return `
             <div class="product-card" data-category="${product.category}">
@@ -56,9 +47,6 @@ class ProductRenderer {
         `;
     }
 
-    /**
-     * Render all products to the container
-     */
     render() {
         if (!this.container) {
             console.error('Product container not found!');
@@ -76,19 +64,13 @@ class ProductRenderer {
             return;
         }
 
-        const productsHTML = filteredProducts
+        this.container.innerHTML = filteredProducts
             .map(product => this.createProductCard(product))
             .join('');
 
-        this.container.innerHTML = productsHTML;
-
-        // Add fade-in animation
         this.animateCards();
     }
 
-    /**
-     * Animate product cards on load
-     */
     animateCards() {
         const cards = this.container.querySelectorAll('.product-card');
         cards.forEach((card, index) => {
@@ -105,39 +87,16 @@ class ProductRenderer {
         });
     }
 
-    /**
-     * Update category filter and re-render
-     */
     setCategory(category) {
         this.category = category;
         this.render();
     }
 }
 
-/**
- * Initialize product renderer on page load
- * 
- * USAGE EXAMPLES:
- * 
- * 1. Show all products:
- *    const renderer = new ProductRenderer('products-container', 'all');
- *    renderer.render();
- * 
- * 2. Show only Men products:
- *    const renderer = new ProductRenderer('products-container', 'men');
- *    renderer.render();
- * 
- * 3. Show only Women products:
- *    const renderer = new ProductRenderer('products-container', 'women');
- *    renderer.render();
- */
-
-// Auto-initialize if container exists
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('products-container');
 
     if (container) {
-        // Get category from data attribute or URL parameter
         const categoryAttr = container.getAttribute('data-category');
         const urlParams = new URLSearchParams(window.location.search);
         const categoryParam = urlParams.get('category');
@@ -147,7 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const renderer = new ProductRenderer('products-container', category);
         renderer.render();
 
-        // Make renderer globally accessible for filtering
         window.productRenderer = renderer;
     }
 });
