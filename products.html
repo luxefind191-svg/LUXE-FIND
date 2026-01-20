@@ -24,7 +24,6 @@
             min-height: 100vh;
         }
 
-        /* Header */
         .header {
             background: rgba(10, 10, 10, 0.95);
             backdrop-filter: blur(10px);
@@ -50,7 +49,6 @@
             background: linear-gradient(135deg, #d4af37 0%, #f4e5b1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
 
         .nav {
@@ -62,43 +60,34 @@
             color: #ffffff;
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.3s ease;
         }
 
         .nav a:hover {
             color: #d4af37;
         }
 
-        /* Page Title */
         .page-title {
             text-align: center;
             padding: 60px 20px 20px;
-            max-width: 1400px;
-            margin: 0 auto;
         }
 
         .page-title h1 {
             font-size: 3rem;
-            margin-bottom: 15px;
             background: linear-gradient(135deg, #d4af37 0%, #f4e5b1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
 
         .page-title p {
             color: #999;
-            font-size: 1.1rem;
+            margin-top: 10px;
         }
 
-        /* Category Filter */
         .category-filter {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
             display: flex;
             justify-content: center;
             gap: 15px;
+            padding: 20px;
             flex-wrap: wrap;
         }
 
@@ -109,23 +98,25 @@
             border-radius: 25px;
             color: #ffffff;
             cursor: pointer;
-            transition: all 0.3s ease;
             font-weight: 600;
         }
 
+        .filter-btn.active,
         .filter-btn:hover {
-            background: rgba(212, 175, 55, 0.2);
-            border-color: #d4af37;
-            color: #d4af37;
-        }
-
-        .filter-btn.active {
             background: linear-gradient(135deg, #d4af37 0%, #f4e5b1 100%);
             color: #0a0a0a;
             border-color: transparent;
         }
 
-        /* Footer */
+        .affiliate-disclaimer {
+            max-width: 1000px;
+            margin: 60px auto 0;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #999;
+            text-align: center;
+        }
+
         .footer {
             background: rgba(10, 10, 10, 0.95);
             border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -144,16 +135,12 @@
                 gap: 15px;
                 font-size: 0.9rem;
             }
-
-            .filter-btn {
-                padding: 10px 20px;
-                font-size: 0.9rem;
-            }
         }
     </style>
 </head>
 
 <body>
+
     <!-- Header -->
     <header class="header">
         <div class="header-content">
@@ -175,48 +162,4 @@
 
     <!-- Category Filter -->
     <div class="category-filter">
-        <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
-        <button class="filter-btn" onclick="filterProducts('men')">Men</button>
-        <button class="filter-btn" onclick="filterProducts('women')">Women</button>
-    </div>
-
-    <!-- Products Container -->
-    <div id="products-container" class="products-container" data-category="all">
-        <!-- Products will be dynamically loaded here -->
-    </div>
-
-    <!-- Affiliate Disclaimer -->
-    <div class="affiliate-disclaimer">
-        <strong>Affiliate Disclosure:</strong> This website contains affiliate links. When you click on links to
-        products and make a purchase, we may receive a commission at no additional cost to you. We only recommend
-        products we genuinely believe in.
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2026 Luxe Find. All rights reserved.</p>
-        <p style="margin-top: 10px; font-size: 0.9rem;">Premium curated products for discerning customers</p>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="js/products-data.js"></script>
-    <script src="js/product-renderer.js"></script>
-
-    <script>
-        // Category filter functionality
-        function filterProducts(category) {
-            // Update active button
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            event.target.classList.add('active');
-
-            // Update products
-            if (window.productRenderer) {
-                window.productRenderer.setCategory(category);
-            }
-        }
-    </script>
-</body>
-
-</html>
+        <button class="filter-btn active" o
