@@ -86,7 +86,7 @@ const products = [
         "image": "https://images.mamaearth.in/catalog/product/w/i/with_claim.jpg?format=auto&height=600",
         "link": "https://bitli.in/pIj2kIy",
         "category": ["Men", "Women"],
-        "description": "Gives up to 94% Stronger Hair| Up to 94% Smoother Hair| Made Safe Certified 4.8 ★55 Reviews"
+        "description": "Gives up to 94% Stronger Hair| Up to 94% Smoother Hair"
     },
 ];
 
@@ -94,5 +94,6 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
