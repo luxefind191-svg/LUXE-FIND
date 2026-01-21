@@ -79,11 +79,22 @@ const products = [
         "category": ["Men","Women"],
         "description": "Boosts Hair Growth | Adds Strength & Shine"
     },
+        {
+        "id": "product-1768977847541",
+        "title": "Rosemary Anti-Hair Fall Conditioner with Rosemary & Methi Dana for Reducing Hair Loss & Breakage - 250 ml",
+        "price": "₹272",
+        "image": "https://images.mamaearth.in/catalog/product/w/i/with_claim.jpg?format=auto&height=600",
+        "link": "https://bitli.in/pIj2kIy",
+        "category": ["Men","Women"],
+        "description": "Gives up to 94% Stronger Hair| Up to 94% Smoother Hair| Made Safe Certified
+4.8 ★55 Reviews"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
