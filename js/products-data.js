@@ -61,10 +61,19 @@ const products = [
         "category": ["Men"],
         "description": "Fight Acne & Pimples, Brighten Skin, Clears Dirt, Oil Control, Refreshing Feel - Multi-Action Formula"
     },
-
+    {
+        "id": "product-1768974074718",
+        "title": "Lakme Sun Expert Tinted Sunscreen 50 SPF PA+++,",
+        "price": "₹390",
+        "image": "https://m.media-amazon.com/images/I/61aXIO7GHWL._SL1000_.jpg",
+        "link": "https://amzn.to/3LKARua",
+        "category": ["Women"],
+        "description": "Natural Tone, With Cucumber, Lightweight, Ultra Matte Finish, Blocks Upto 97% Harmful Sunrays, 100 ml"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
