@@ -13,43 +13,6 @@
 
 const products = [
     // Sample Products - Replace with your actual products
-    {
-        "id": "product-1",
-        "title": "Midnight Elixir Serum",
-        "price": "₹11,999",
-        "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=600",
-        "link": "#",
-        "category": ["Women"],
-        "description": "A rejuvenating night serum that restores youthful glow and hydrates deeply."
-    },
-    {
-        "id": "product-2",
-        "title": "Royal Oud Cologne",
-        "price": "₹17,499",
-        "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=600",
-        "link": "#",
-        "category": ["Men"],
-        "description": "A sophisticated blend of rare woods and spices for a lasting, premium scent."
-    },
-    {
-        "id": "product-3",
-        "title": "Gold Luster Face Cream",
-        "price": "₹15,299",
-        "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dcab5b?auto=format&fit=crop&q=80&w=600",
-        "link": "#",
-        "category": ["Women"],
-        "description": "Infused with 24k gold particles for an instant lifting and brightening effect."
-    },
-    {
-        "id": "product-4",
-        "title": "Silk Finish Hair Oil",
-        "price": "₹6,999",
-        "image": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&q=80&w=600",
-        "link": "#",
-        "category": ["Men"],
-        "description": "Weightless formula for mirror-like shine and frizz control."
-    },
-
     // ADD NEW PRODUCTS BELOW THIS LINE
     // Paste code generated from product-bot.html here
     {
@@ -103,6 +66,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
