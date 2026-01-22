@@ -88,12 +88,22 @@ const products = [
         "category": ["Men", "Women"],
         "description": "Gives up to 94% Stronger Hair| Up to 94% Smoother Hair"
     },
+        {
+        "id": "product-1769090594694",
+        "title": "Tea Tree Shampoo for Dandruff Free Hair - 250ml",
+        "price": "₹310",
+        "image": "https://images.mamaearth.in/catalog/product/t/e/tea_tree_shampoo_1.jpg?format=auto&height=600",
+        "link": "https://bitli.in/gcWJLUC",
+        "category": ["Men","Women"],
+        "description": "Reduces Dandruff & Controls Oil | Soothes Scalp"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
