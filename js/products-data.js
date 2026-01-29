@@ -24,7 +24,7 @@ const products = [
         "pros": ["Affordable effective cleansing", "Refreshing ocean scent", "Great for oily skin"],
         "cons": ["Strong for very dry skin types"],
         "rating": 4.5,
-        "isFeatured": false,
+        "isFeatured": true,
         "bestFor": "Oily Skin",
         "verdict": "Value for Money"
     },
@@ -94,5 +94,6 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
