@@ -152,22 +152,68 @@ class ProductRenderer {
  *    renderer.render();
  */
 
-// Auto-initialize if container exists
-document.addEventListener('DOMContentLoaded', () => {
-    const container = document.getElementById('products-container');
+/**
+ * LUXE FIND - Comparison Renderer
+ * 
+ * Dynamically renders the Expert Selection table
+ */
+class ComparisonRenderer {
+    constructor(tableBodyId) {
+        this.container = document.getElementById(tableBodyId);
+        this.products = (typeof products !== 'undefined' && Array.isArray(products)) ? products : [];
+    }
 
-    if (container) {
-        // Get category from data attribute or URL parameter
-        const categoryAttr = container.getAttribute('data-category');
+    render() {
+        if (!this.container) return;
+
+        const featuredProducts = this.products.filter(p => p.isFeatured);
+
+        if (featuredProducts.length === 0) {
+            this.container.innerHTML = '<tr><td colspan="5" style="text-align: center;">Update products-data.js to feature items in this section.</td></tr>';
+            return;
+        }
+
+        const rowsHTML = featuredProducts.map(product => {
+            return `
+                <tr>
+                    <td>
+                        <div class="comp-product">
+                            <img src="${product.image}" alt="${product.title}">
+                            <span>${product.title}</span>
+                        </div>
+                    </td>
+                    <td>${product.bestFor || 'Expert Choice'}</td>
+                    <td><span class="stars"><i class="fas fa-star"></i> ${product.rating || '5.0'}</span></td>
+                    <td><span class="badge" style="${product.verdict === 'Top Choice' ? 'background: var(--accent-gold); color: black;' : ''}">${product.verdict || 'Highly Rated'}</span></td>
+                    <td><a href="product-details.html?id=${product.id}" class="btn-buy" style="padding: 0.5rem 1rem; font-size: 0.7rem;">Details</a></td>
+                </tr>
+            `;
+        }).join('');
+
+        this.container.innerHTML = rowsHTML;
+    }
+}
+
+// Auto-initialize if containers exist
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialize Product Grid
+    const productContainer = document.getElementById('products-container');
+    if (productContainer) {
+        const categoryAttr = productContainer.getAttribute('data-category');
         const urlParams = new URLSearchParams(window.location.search);
         const categoryParam = urlParams.get('category');
-
         const category = categoryParam || categoryAttr || 'all';
 
         const renderer = new ProductRenderer('products-container', category);
         renderer.render();
-
-        // Make renderer globally accessible for filtering
         window.productRenderer = renderer;
+    }
+
+    // Initialize Comparison Table
+    const comparisonContainer = document.getElementById('comparison-body');
+    if (comparisonContainer) {
+        const compRenderer = new ComparisonRenderer('comparison-body');
+        compRenderer.render();
+        window.comparisonRenderer = compRenderer;
     }
 });
