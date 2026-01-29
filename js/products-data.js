@@ -12,6 +12,7 @@
  */
 
 const products = [
+ 
     {
         "id": "product-1737402800000",
         "title": "Muuchstac Ocean Face Wash for Men",
@@ -23,7 +24,9 @@ const products = [
         "pros": ["Affordable effective cleansing", "Refreshing ocean scent", "Great for oily skin"],
         "cons": ["Strong for very dry skin types"],
         "rating": 4.5,
-        "isFeatured": false
+        "isFeatured": false,
+        "bestFor": "Oily Skin",
+        "verdict": "Value for Money"
     },
     {
         "id": "product-1768974074718",
@@ -36,7 +39,9 @@ const products = [
         "pros": ["Effective sun protection", "Matte finish", "Budget friendly"],
         "cons": ["Tint might not match all skin tones"],
         "rating": 4.4,
-        "isFeatured": false
+        "isFeatured": false,
+        "bestFor": "Sun Protection",
+        "verdict": "Daily Essential"
     },
     {
         "id": "product-1768977482993",
@@ -49,7 +54,9 @@ const products = [
         "pros": ["Strengthens roots", "Natural ingredients", "No harmful sulfates"],
         "cons": ["Strong onion scent (fades after wash)"],
         "rating": 4.6,
-        "isFeatured": false
+        "isFeatured": false,
+        "bestFor": "Hair Fall",
+        "verdict": "Natural Solution"
     },
     {
         "id": "product-1768977847541",
@@ -62,7 +69,9 @@ const products = [
         "pros": ["Makes hair intensely smooth", "Reduces breakage", "Safe for colored hair"],
         "cons": ["Requires consistent use for best results"],
         "rating": 4.7,
-        "isFeatured": false
+        "isFeatured": false,
+        "bestFor": "Hair Loss",
+        "verdict": "Highly Rated"
     },
     {
         "id": "product-1769090594694",
@@ -75,7 +84,9 @@ const products = [
         "pros": ["Effective dandruff control", "Soothes itchy scalp", "Refreshing tea tree scent"],
         "cons": ["Can be slightly drying if used daily"],
         "rating": 4.6,
-        "isFeatured": false
+        "isFeatured": false,
+        "bestFor": "Dandruff Control",
+        "verdict": "Expert Review"
     },
 ];
 
