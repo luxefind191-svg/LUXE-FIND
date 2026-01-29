@@ -54,11 +54,10 @@ class ProductRenderer {
                     <span class="price">${product.price}</span>
                     <p>${product.description || ''}</p>
                     <a 
-                        href="${product.link}" 
-                        target="_blank" 
+                        href="product-details.html?id=${product.id}" 
                         class="btn-buy"
                     >
-                        Check Price
+                        View Details
                     </a>
                 </div>
             </div>
