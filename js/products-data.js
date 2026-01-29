@@ -54,7 +54,7 @@ const products = [
         "pros": ["Strengthens roots", "Natural ingredients", "No harmful sulfates"],
         "cons": ["Strong onion scent (fades after wash)"],
         "rating": 4.6,
-        "isFeatured": false,
+        "isFeatured": true,
         "bestFor": "Hair Fall",
         "verdict": "Natural Solution"
     },
@@ -94,6 +94,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
