@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | LUXE FIND</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-details-section {
+            padding-top: 150px;
+            min-height: 80vh;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: start;
+        }
+
+        .details-image-wrapper {
+            background: var(--obsidian);
+            border: 1px solid var(--glass-border);
+            padding: 2rem;
+            border-radius: 8px;
+            position: sticky;
+            top: 120px;
+        }
+
+        .details-image {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .details-info h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-white);
+        }
+
+        .details-price {
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+            display: block;
+            font-weight: 500;
+        }
+
+        .details-description {
+            font-size: 1.1rem;
+            color: #ccc;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+        }
+
+        .details-meta {
+            margin-bottom: 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .badge {
+            padding: 0.5rem 1.5rem;
+            background: rgba(226, 194, 117, 0.1);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-checkout {
+            display: inline-block;
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 992px) {
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .details-image-wrapper {
+                position: static;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Premium 3D Background Canvas -->
+    <canvas id="canvas-3d"></canvas>
+
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#products">Collection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container product-details-section">
+        <a href="index.html#products" class="back-link"><i class="fas fa-arrow-left"></i> Back to Collection</a>
+
+        <div id="product-details-container" class="details-grid">
+            <!-- Content dynamic loaded -->
+            <div class="loader-content" style="grid-column: 1 / -1; margin: 100px 0;">
+                <div class="loader-logo">LOADING <span>...</span></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+                <p class="affiliate-disclosure">Disclosure: As an affiliate, we may earn a commission from qualifying
+                    purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/premium-bg.js"></script>
+    <script src="js/product-details-renderer.js"></script>
+</body>
+
+</html>
