@@ -88,12 +88,28 @@ const products = [
         "bestFor": "Dandruff Control",
         "verdict": "Expert Review"
     },
+     {
+        "id": "product-1769772666648",
+        "title": "Mamaearth Vitamin C Daily Glow Sunscreen SPF 50 PA++++",
+        "price": "₹359",
+        "image": "https://images.mamaearth.in/catalog/product/1/_/1_190.jpg?format=auto&height=600",
+        "link": "https://bitli.in/BwEatbm",
+        "category": ["Men","Women"],
+        "description": "Protect your skin from sun damage & get your daily glow up with Mamaearth Vitamin C Daily Glow Sunscreen. With SPF 50 & PA++++, this sunscreen gives your skin adequate sun protection without any white cast.",
+        "pros": ["Vitamin c daily glow sunscreen 80g- Good product it can the tan skin with 1week into glowing skin it suits for all type of skin"],
+        "cons": ["non"],
+        "rating": 5,
+        "isFeatured": true,
+        "bestFor": "✔ People looking for daily sun protection with added skincare benefits (brightening + antioxidants) ✔ Normal, dry, or combination skin types wanting a radiant/healthy glow ✔ Those who prefer a cleaner, toxin-free formula ✔ Everyday urban use (office, errands, short outdoor exposure)",
+        "verdict": "Good everyday sunscreen with added skincare perks: This product delivers solid SPF 50 PA++++ protection and a noticeable glow thanks to Vitamin C and turmeric."
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
