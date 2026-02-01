@@ -103,13 +103,28 @@ const products = [
         "bestFor": "✔ People looking for daily sun protection with added skincare benefits (brightening + antioxidants) ✔ Normal, dry, or combination skin types wanting a radiant/healthy glow ✔ Those who prefer a cleaner, toxin-free formula ✔ Everyday urban use (office, errands, short outdoor exposure)",
         "verdict": "Good everyday sunscreen with added skincare perks: This product delivers solid SPF 50 PA++++ protection and a noticeable glow thanks to Vitamin C and turmeric."
     },
-     
+         {
+        "id": "product-1769919255300",
+        "title": "Multani Mitti Oil Balance Face Pack with Multani Mitti & Bulgarian Rose for Normal to Oily Skin",
+        "price": "₹399",
+        "image": "https://images.mamaearth.in/catalog/product/m/m/mm_100g_whitebg.jpg?format=auto&height=600",
+        "link": "https://bitli.in/PEu3tj7",
+        "category": ["Women"],
+        "description": "DIY face masks seem like a good idea until the mess and potential skin irritation ruin the fun. Put an end to the hassle with our all new skin-friendly, pH balanced Mamaearth Multani Mitti Oil Balance Face Pack featuring a DIY-like texture! Combining the wisdom of ancient skincare with modern convenience, this purifying face pack controls excess oil, refines pores, and keeps breakouts at bay without drying out your skin",
+        "pros": ["balances oil production and hydrate skin","crafted with multani mitti and bulgarian rose"],
+        "cons": ["NON"],
+        "rating": 5,
+        "isFeatured": true,
+        "bestFor": "shiny skin",
+        "verdict": "must have"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
