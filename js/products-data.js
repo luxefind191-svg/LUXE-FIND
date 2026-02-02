@@ -24,7 +24,7 @@ const products = [
         "pros": ["Affordable effective cleansing", "Refreshing ocean scent", "Great for oily skin"],
         "cons": ["Strong for very dry skin types"],
         "rating": 4.5,
-        "isFeatured": true,
+        "isFeatured": false,
         "bestFor": "Oily Skin",
         "verdict": "Value for Money"
     },
@@ -54,7 +54,7 @@ const products = [
         "pros": ["Strengthens roots", "Natural ingredients", "No harmful sulfates"],
         "cons": ["Strong onion scent (fades after wash)"],
         "rating": 4.6,
-        "isFeatured": true,
+        "isFeatured": false,
         "bestFor": "Hair Fall",
         "verdict": "Natural Solution"
     },
@@ -139,6 +139,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
