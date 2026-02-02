@@ -118,12 +118,28 @@ const products = [
         "bestFor": "shiny skin",
         "verdict": "must have"
     },
+     {
+        "id": "product-1770008476525",
+        "title": "Cherry Tinted 100% Natural Lip Balm with Cherry & Coconut Oil for 12 hrs Moisturized Lips - 2 g",
+        "price": "₹299",
+        "image": "https://images.mamaearth.in/catalog/product/2/_/2_272.jpg?format=auto&height=600",
+        "link": "https://bitli.in/mCEx0Gr",
+        "category": ["Women"],
+        "description": "Natural never looked this Crafted with a 100% natural formulation this lip-loving balm provides up to 12 hours* of moisturization. It is completely free of petroleum jelly, synthetic waxes & menthol to ensure that your lips get the most gentle care.",
+        "pros": ["100% Natural Formula which Provides 12 hrs* Moisturization | Free From Harmful Chemicals & Made Safe Approved"],
+        "cons": ["NO"],
+        "rating": 5,
+        "isFeatured": true,
+        "bestFor": "soft & moistarized lips",
+        "verdict": "must buy"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
