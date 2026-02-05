@@ -133,12 +133,28 @@ const products = [
         "bestFor": "soft & moistarized lips",
         "verdict": "must buy"
     },
+     {
+        "id": "product-1770298127248",
+        "title": "Moisture Matte Long Stay Lipstick - 2g",
+        "price": "₹419",
+        "image": "https://images.mamaearth.in/catalog/product/1/_/1_white_bg_74.jpg?format=auto&height=600",
+        "link": "https://bitli.in/s4mngwS",
+        "category": ["Women"],
+        "description": "Finding the right lipstick is like finding a BFF. We’ve made it easy! Meet your match - Mamaearth Moisture Matte Longstay Lipsticks are enriched with the natural goodness of Avocado Oil and Vitamin E. With a lightweight formula, the lipstick nourishes your lips and seals in the moisture for up to 8 hours.",
+        "pros": ["12-Hour Stay | 8-Hour Moisture Lock | Smudge-Proof"],
+        "cons": ["NO"],
+        "rating": 4.8,
+        "isFeatured": true,
+        "bestFor": "best lip",
+        "verdict": "must have"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
