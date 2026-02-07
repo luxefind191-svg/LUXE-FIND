@@ -148,12 +148,28 @@ const products = [
         "bestFor": "best lip",
         "verdict": "must have"
     },
+     {
+        "id": "product-1770471426073",
+        "title": "Rice Dewy Bright Face Wash With Rice Water & Niacinamide for Glass Skin - 150 ml",
+        "price": "₹314",
+        "image": "https://images.mamaearth.in/catalog/product/r/i/rice_fw_150ml.jpg?format=auto&height=600",
+        "link": "https://bitli.in/nlwf936",
+        "category": ["Men","Women"],
+        "description": "Want to achieve glass skin but don’t know where to start? We’ve got you! Presenting Mamaearth Rice Dewy Bright Face Wash that deeply cleanses the grime & grease, leaving your skin dewy and refreshed. Enriched with the goodness of Rice Water, this face wash is rich in antioxidants that help reduce blemishes and dark spots. Unlike other face washes, its creamy texture doesn’t strip your skin’s essential moisture after cleansing.",
+        "pros": ["Gently Cleanses Skin | Hydrates Skin"],
+        "cons": ["NO"],
+        "rating": 4.5,
+        "isFeatured": true,
+        "bestFor": "shiny skin",
+        "verdict": "must have"
+    },
 ];
 
 // Export for use in other files
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
