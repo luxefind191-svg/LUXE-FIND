@@ -47,7 +47,7 @@ const products = [
         "id": "product-1768977482993",
         "title": "Onion Hair Oil with Onion Oil & Redensyl for Hair Fall Control - 250 ml",
         "price": "₹533",
-        "image": "Gemini_Generated_Image_jx61a9jx61a9jx61.png",
+        "image": "https://images.mamaearth.in/catalog/product/_/o/_onion-oil-250ml__1_1_1.jpeg?format=auto&height=600",
         "link": "https://bitli.in/oViDlD2",
         "category": ["Men", "Women"],
         "description": "Boosts Hair Growth | Adds Strength & Shine",
@@ -169,6 +169,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
