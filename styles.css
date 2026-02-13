@@ -1078,8 +1078,65 @@ nav.scrolled {
     background: rgba(255, 255, 255, 0.02);
 }
 
+/* --- Money Table (Dynamic) --- */
+.money-table-container {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 12px;
+    border: 1px solid var(--border-soft);
+}
+
+.money-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.money-table th,
+.money-table td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+.money-table th {
+    background: var(--bg-soft);
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-main);
+}
+
+.table-product {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.table-product img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid var(--border-soft);
+}
+
+.tag-badge {
+    background: var(--bg-soft);
+    color: var(--text-main);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
 @media (max-width: 992px) {
-    .comparison-table {
+
+    .comparison-table,
+    .money-table {
         min-width: 800px;
     }
 }
