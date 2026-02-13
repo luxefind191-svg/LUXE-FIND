@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Dandruff Solutions | LUXE FIND</title>
+    <meta name="description"
+        content="Find the best anti-dandruff shampoos for the Indian climate. Expert comparison of top-rated scalp treatments.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-mini {
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(8, 8, 8, 0.7), rgba(8, 8, 8, 0.9)), url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .comparison-card {
+            background: var(--obsidian);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            transition: var(--transition-smooth);
+            display: grid;
+            grid-template-columns: 250px 1fr 200px;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .comparison-card:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-5px);
+            background: rgba(226, 194, 117, 0.02);
+        }
+
+        .comp-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-gold);
+        }
+
+        .comp-price-rating {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .benefits-list {
+            margin: 1.5rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+        }
+
+        .benefits-list li {
+            font-size: 0.85rem;
+            color: #ccc;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .benefits-list li i {
+            color: var(--accent-gold);
+            font-size: 0.7rem;
+        }
+
+        .verdict-tag {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        .comp-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 992px) {
+            .comparison-card {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .benefits-list {
+                grid-template-columns: 1fr;
+            }
+
+            .comp-price-rating {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#cat-men">Men</a></li>
+                <li><a href="index.html#cat-women">Women</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-mini">
+        <div class="container">
+            <span class="sub"
+                style="color: var(--accent-gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem;">Expert
+                Curation</span>
+            <h1 style="font-size: 3rem; margin-top: 1rem;">Anti-Dandruff Solutions</h1>
+            <p style="max-width: 600px; margin: 1.5rem auto; opacity: 0.8;">Specifically tested for the "Indian Triple
+                Threat": Sweaty humidity, urban pollution, and harsh hard water.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div id="solutions-container">
+                <!-- Product Card 1 -->
+                <div class="comparison-card">
+                    <div class="comp-image">
+                        <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=600"
+                            alt="Nizoral">
+                    </div>
+                    <div class="comp-info">
+                        <h3>Nizoral Anti-Dandruff Shampoo</h3>
+                        <div class="comp-price-rating">
+                            <span><i class="fas fa-tag"></i> ₹350 - ₹550</span>
+                            <span><i class="fas fa-star" style="color: var(--accent-gold);"></i> 4.8/5</span>
+                        </div>
+                        <p>The "Gold Standard" for persistent flakes. Clinically proven antifungal formula with 2%
+                            Ketoconazole.</p>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Clinically proven formula</li>
+                            <li><i class="fas fa-check"></i> Stops itching fast</li>
+                            <li><i class="fas fa-check"></i> Dermatologist recommended</li>
+                        </ul>
+                        <div class="verdict-tag">Best for: Persistent flakes and stubborn dandruff.</div>
+                    </div>
+                    <div class="comp-cta">
+                        <a href="https://amzn.to/3..." class="btn-primary"
+                            style="width: 100%; text-align: center;">Check Price</a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="comparison-card">
+                    <div class="comp-image">
+                        <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80&w=600"
+                            alt="H&S Supreme">
+                    </div>
+                    <div class="comp-info">
+                        <h3>Head & Shoulders Supreme</h3>
+                        <div class="comp-price-rating">
+                            <span><i class="fas fa-tag"></i> ₹180 - ₹380</span>
+                            <span><i class="fas fa-star" style="color: var(--accent-gold);"></i> 4.5/5</span>
+                        </div>
+                        <p>Infused with Argan oil for soft, flake-free hair. Ideal for daily commuters who need gentle
+                            care.</p>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Non-drying formula</li>
+                            <li><i class="fas fa-check"></i> Great refreshing scent</li>
+                            <li><i class="fas fa-check"></i> Infused with Argan oil</li>
+                        </ul>
+                        <div class="verdict-tag">Best for: Daily commutes and soft hair health.</div>
+                    </div>
+                    <div class="comp-cta">
+                        <a href="https://amzn.to/3..." class="btn-primary"
+                            style="width: 100%; text-align: center;">Check Price</a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="comparison-card">
+                    <div class="comp-image">
+                        <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=600"
+                            alt="Minimalist">
+                    </div>
+                    <div class="comp-info">
+                        <h3>Minimalist Anti-Dandruff (3.5%)</h3>
+                        <div class="comp-price-rating">
+                            <span><i class="fas fa-tag"></i> ₹450 - ₹599</span>
+                            <span><i class="fas fa-star" style="color: var(--accent-gold);"></i> 4.7/5</span>
+                        </div>
+                        <p>The scientific solution for oily scalps. Exfoliates to remove sticky residue from urban
+                            pollution.</p>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> Exfoliates oily buildup</li>
+                            <li><i class="fas fa-check"></i> Fragrance-free</li>
+                            <li><i class="fas fa-check"></i> Science-backed blend</li>
+                        </ul>
+                        <div class="verdict-tag">Best for: Oily scalps and deep exfoliation.</div>
+                    </div>
+                    <div class="comp-cta">
+                        <a href="https://amzn.to/3..." class="btn-primary"
+                            style="width: 100%; text-align: center;">Check Price</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: rgba(226, 194, 117, 0.02);">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub">Buyer's Guide</span>
+                <h2>How to Choose Your Match</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-tint"></i>
+                    <h3>For Dry/Itchy Scalp</h3>
+                    <p>Look for Argan or Coconut oils to hydrate while cleaning.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>For Stubborn Flakes</h3>
+                    <p>Antifungal ingredients like Ketoconazole are your best bet.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>For Sensitive Skin</h3>
+                    <p>Sulfate-free options like Tea Tree offer gentle relief.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+                <p class="affiliate-disclosure">As an affiliate, we may earn a commission from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/premium-bg.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
