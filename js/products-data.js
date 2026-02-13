@@ -13,22 +13,22 @@
 const products = [
     // --- CATEGORY 1: ANTI-DANDRUFF ---
     {
-        "id": "dandruff-nizoral",
-        "title": "Nizoral Anti-Dandruff Shampoo",
-        "price": "₹450",
-        "image": "https://m.media-amazon.com/images/I/71R7U7l1-YL._SL1500_.jpg",
-        "link": "https://amzn.to/3...",
-        "category": ["Anti-Dandruff"],
-        "description": "Clinically proven formula with 2% Ketoconazole. #1 Choice for stubborn flakes.",
-        "pros": ["Antifungal formula", "Clinically proven", "Dermatologist choice"],
-        "cons": ["Small bottle size"],
-        "rating": 4.8,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Persistent Flakes",
-        "strength": "Strong",
-        "keyBenefit": "Eliminates Flakes",
-        "verdict": "Expert Choice"
+        "id": "anti-dandruff-4618",
+        "title": "Bare Anatomy Anti-Dandruff Shampoo (Salicylic Acid + Piroctone Olamine + Biotin)",
+        "price": "₹249",
+        "image": "https://m.media-amazon.com/images/I/51pQnOebkoL._SL1000_.jpg",
+        "link": "https://amzn.to/4bU1lUG",
+        "category": ["Anti-Dandruff","Oil Control"],
+        "description": "A scientifically formulated anti-dandruff shampoo containing 0.2% Salicylic Acid, Piroctone Olamine, and Biotin to exfoliate dead skin cells, reduce dandruff-causing fungus, and support stronger, healthier hair growth",
+        "pros": ["Controls oily scalp effectively","Contains Salicylic Acid exfoliant","Affordable budget-friendly option","Non-drying formula","High Amazon purchase volume","Suitable for men and women"],
+        "cons": ["May not be strong enough for severe dandruff","Small 100 ml size at base price","Requires consistent use for visible results"],
+        "rating": 4.1,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending"],
+        "bestFor": "Oily Dandruff & Itchy Scalp",
+        "strength": "Moderate",
+        "keyBenefit": "Removes flakes while controlling excess oil without drying your scalp.",
+        "verdict": "Highly Rated"
     },
     {
         "id": "dandruff-hs",
@@ -262,3 +262,4 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
