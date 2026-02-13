@@ -48,23 +48,23 @@ const products = [
         "keyBenefit": "Moisturizes",
         "verdict": "Crowd Favorite"
     },
-    {
-        "id": "dandruff-minimalist",
-        "title": "Minimalist Anti-Dandruff Shampoo",
-        "price": "₹499",
-        "image": "https://m.media-amazon.com/images/I/61kGv6r5ZVL._SL1500_.jpg",
-        "link": "#",
+  {
+        "id": "anti-dandruff-5931",
+        "title": "Kitcoz Daily Anti Dandruff & Anti Itch Shampoo (Ceramide + Salicylic Acid)",
+        "price": "₹349",
+        "image": "https://m.media-amazon.com/images/I/71VS7xNQLoL._SL1500_.jpg",
+        "link": "https://amzn.to/4kzm2aT",
         "category": ["Anti-Dandruff"],
-        "description": "3.5% Salicylic acid + Capryloyl Glycine to control oil and flakes.",
-        "pros": ["Exfoliates scalp", "Oil control", "Safe for daily use"],
-        "cons": ["Medicine-like scent"],
-        "rating": 4.7,
-        "isFeatured": false,
-        "tags": ["Top Rated"],
-        "bestFor": "Oily Dandruff",
+        "description": "A dermatologist-tested anti-dandruff shampoo formulated with Ichthyol, Salicylic Acid, and Ceramide Complex to gently exfoliate flakes, soothe scalp irritation, and strengthen the hair barrier for daily use.",
+        "pros": ["Gentle non-drying formula","Contains Ceramide for scalp barrier repair","Targets itching and irritation","Suitable for daily use","Free from parabens and sulphates"],
+        "cons": ["Lower review count compared to competitors","May not be strong enough for severe dandruff","Small 100ml size at base price"],
+        "rating": 4.1,
+        "isFeatured": true,
+        "tags": ["Top Rated","Editor's Choice"],
+        "bestFor": "Sensitive & Itchy Scalp (Daily Use)",
         "strength": "Moderate",
-        "keyBenefit": "Oil Control",
-        "verdict": "Science-Backed"
+        "keyBenefit": "Reduces flakes and itching without stripping natural moisture.",
+        "verdict": "Expert Choice"
     },
 
     // --- CATEGORY 2: HAIR GROWTH ---
@@ -262,5 +262,6 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
