@@ -12,8 +12,8 @@
 
 const products = [
     // --- CATEGORY 1: ANTI-DANDRUFF ---
-    {
-        "id": "anti-dandruff-4618",
+  {
+        "id": "anti-dandruff-6977",
         "title": "Bare Anatomy Anti-Dandruff Shampoo (Salicylic Acid + Piroctone Olamine + Biotin)",
         "price": "₹249",
         "image": "https://m.media-amazon.com/images/I/51pQnOebkoL._SL1000_.jpg",
@@ -23,12 +23,12 @@ const products = [
         "pros": ["Controls oily scalp effectively","Contains Salicylic Acid exfoliant","Affordable budget-friendly option","Non-drying formula","High Amazon purchase volume","Suitable for men and women"],
         "cons": ["May not be strong enough for severe dandruff","Small 100 ml size at base price","Requires consistent use for visible results"],
         "rating": 4.1,
-        "isFeatured": false,
+        "isFeatured": true,
         "tags": ["Top Rated","Trending"],
         "bestFor": "Oily Dandruff & Itchy Scalp",
         "strength": "Moderate",
         "keyBenefit": "Removes flakes while controlling excess oil without drying your scalp.",
-        "verdict": "Highly Rated"
+        "verdict": "Expert Choice"
     },
     {
         "id": "dandruff-hs",
@@ -262,4 +262,5 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
