@@ -31,22 +31,22 @@ const products = [
         "verdict": "Expert Choice"
     },
     {
-        "id": "dandruff-hs",
-        "title": "Head & Shoulders Supreme",
-        "price": "₹280",
-        "image": "https://m.media-amazon.com/images/I/51w7-A6-9TL._SL1000_.jpg",
-        "link": "https://amzn.to/3...",
-        "category": ["Anti-Dandruff"],
-        "description": "Infused with Argan oil for soft, flake-free hair. Great for daily scalp health.",
-        "pros": ["Non-drying", "Smells amazing", "Argan infused"],
-        "cons": ["Fragrance might be strong"],
-        "rating": 4.5,
-        "isFeatured": true,
-        "tags": ["Trending"],
-        "bestFor": "Daily Use",
-        "strength": "Moderate",
-        "keyBenefit": "Moisturizes",
-        "verdict": "Crowd Favorite"
+        "id": "anti-dandruff-1137",
+        "title": "L'Oréal Professionnel Scalp Advanced 5-In-1 Leave-In Serum – 90ml",
+        "price": "₹2200",
+        "image": "https://m.media-amazon.com/images/I/61Uo6RPg0yL._SL1500_.jpg",
+        "link": "https://amzn.to/4kEaoLO",
+        "category": ["Anti-Dandruff","Oil Control"],
+        "description": "A salon-grade leave-in scalp serum formulated to target five major scalp irregularities including oiliness, discomfort, sweat, impurities and odor for long-lasting scalp freshness and balance.",
+        "pros": ["Salon-grade professional formula","Controls excess oil without drying hair","Lightweight non-greasy leave-in texture","Targets sweat and scalp odor","Suitable for men and women"],
+        "cons": ["Premium pricing","Limited customer reviews","Not specifically an anti-dandruff medication"],
+        "rating": 3.6,
+        "isFeatured": false,
+        "tags": ["Editor's Choice","Luxury Pick"],
+        "bestFor": "Persistent Oily & Sweaty Scalp",
+        "strength": "Strong",
+        "keyBenefit": "Professional 5-in-1 scalp therapy that controls oil, sweat, odor and discomfort without daily washing.",
+        "verdict": "Highly Rated"
     },
   {
         "id": "anti-dandruff-5931",
@@ -262,6 +262,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
