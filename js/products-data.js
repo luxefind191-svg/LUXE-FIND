@@ -49,22 +49,39 @@ const products = [
         "verdict": "Highly Rated"
     },
   {
-        "id": "anti-dandruff-5931",
-        "title": "Kitcoz Daily Anti Dandruff & Anti Itch Shampoo (Ceramide + Salicylic Acid)",
-        "price": "₹349",
-        "image": "https://m.media-amazon.com/images/I/71VS7xNQLoL._SL1500_.jpg",
-        "link": "https://amzn.to/4kzm2aT",
-        "category": ["Anti-Dandruff"],
-        "description": "A dermatologist-tested anti-dandruff shampoo formulated with Ichthyol, Salicylic Acid, and Ceramide Complex to gently exfoliate flakes, soothe scalp irritation, and strengthen the hair barrier for daily use.",
-        "pros": ["Gentle non-drying formula","Contains Ceramide for scalp barrier repair","Targets itching and irritation","Suitable for daily use","Free from parabens and sulphates"],
-        "cons": ["Lower review count compared to competitors","May not be strong enough for severe dandruff","Small 100ml size at base price"],
-        "rating": 4.1,
-        "isFeatured": true,
-        "tags": ["Top Rated","Editor's Choice"],
-        "bestFor": "Sensitive & Itchy Scalp (Daily Use)",
-        "strength": "Moderate",
-        "keyBenefit": "Reduces flakes and itching without stripping natural moisture.",
-        "verdict": "Expert Choice"
+        "id": "oil-control-8774",
+        "title": "Cutilift Salicylic Acid 2% Face Wash",
+        "price": "₹235",
+        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
+        "link": "https://amzn.to/3OqSMaj",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "A soap-free, pH-balanced cleanser formulated with 2% Salicylic Acid (BHA) to penetrate deep into pores and dissolve sebum. Enhanced with Tea Tree Oil for its natural antibacterial properties and Niacinamide to soothe inflammation.",
+        "pros": ["* Unbeatable price for the quality","    Effective 2% BHA concentration","    Tea Tree targets acne bacteria","    Non-drying, soap-free formula"],
+        "cons": ["Simple, clinical packaging","May be too strong for very dry skin"],
+        "rating": 4.7,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Active Acne & Oily Skin",
+        "strength": "Targeted",
+        "keyBenefit": "Clears deep-seated blackheads and prevents new breakouts with clinical precision.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid (BHA)
+
+Tea Tree Oil
+
+Aloe Vera Extract
+
+Niacinamide
+
+Vitamin E",
+        "usage": "Wet face with lukewarm water.
+
+Apply a coin-sized amount and massage in circular motions for 60 seconds.
+
+Focus on the T-zone (forehead, nose, chin) where oil is highest.
+
+Rinse thoroughly and pat dry. Use twice daily.",
+        "whyPicked": "We chose this because it offers the same high-potency ingredients as luxury brands but at a "Pharmacy Price." It is a no-nonsense, results-driven formula that dermatologists in India have trusted for years for oily and blemish-prone skin."
     },
 
     // --- CATEGORY 2: HAIR GROWTH ---
@@ -262,6 +279,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
