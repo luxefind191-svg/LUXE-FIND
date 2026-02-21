@@ -165,28 +165,7 @@ const products = [
         "usage": "After cleansing, apply 2-3 drops to the entire face or just the affected areas. Gently pat into the skin until fully absorbed. Follow with a lightweight, oil-free moisturizer. Always wear sunscreen during the day when using this serum.",
         "whyPicked": "We picked it because it’s the \"Lowest Price in 30 Days.\" You are getting a premium \"Acne Buster\" complex that usually costs ₹650 for just ₹285. It is the smartest way to upgrade your skincare routine without spending a fortune.",
     },
-    {
-        "id": "oil-control-2743",
-        "title": "Cutilift Salicylic Acid 2% Face Wash",
-        "price": "₹235",
-        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
-        "link": "https://amzn.to/4kJCcym",
-        "category": ["Acne & Pimples"],
-        "description": "A deep cleansing gel formula containing 2% Salicylic Acid (BHA) to exfoliate skin and clear pores, enriched with Niacinamide and botanicals to balance oil and improve skin texture.",
-        "pros": ["Clinically effective 2% BHA", "Tea Tree Oil targets acne bacteria", "Soothing Aloe prevents dryness", "Incredible value for money"],
-        "cons": ["Basic clinical packaging", "Mild fragrance may not suit everyone"],
-        "rating": 4.8,
-        "isFeatured": false,
-        "tags": ["Trending", "Editor's Choice"],
-        "bestFor": "Active Acne & Oily Skin",
-        "strength": "Strong",
-        "keyBenefit": "Clears deep-seated blackheads and prevents new breakouts with clinical precision.",
-        "verdict": "Expert Choice",
-        "ingredients": "2% Salicylic Acid, Tea Tree Oil, Aloe Vera Extract, Niacinamide, Vitamin E.",
-        "usage": "1. Wet face with lukewarm water. 2. Apply a coin-sized amount and massage for 60 seconds, focusing on the T-zone. 3. Rinse thoroughly and pat dry.",
-        "whyPicked": "We chose this because it delivers dermatological strength at a \"Pharmacy Price.\" It's a no-nonsense solution for stubborn acne that fits easily into a daily budget.",
-    },
-
+  
     // --- CATEGORY 5: GLASS SKIN ---
     {
         "id": "glass-pink",
@@ -268,6 +247,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
