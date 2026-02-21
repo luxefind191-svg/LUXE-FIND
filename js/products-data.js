@@ -155,7 +155,7 @@ const products = [
         "cons": ["Slightly drying for dry skin type"],
         "rating": 4.8,
         "isFeatured": true,
-        "tags": ["Top Rated"],
+        "tags": ["Top Rated", "Trending"],
         "bestFor": "Oily Acne Skin",
         "strength": "Strong",
         "keyBenefit": "Exfoliates Pores",
@@ -282,6 +282,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
