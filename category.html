@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Solution | LUXE FIND</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html?type=Anti-Dandruff">Dandruff</a></li>
+                <li><a href="category.html?type=Hair%20Growth">Hair Growth</a></li>
+                <li><a href="category.html?type=Acne%20%26%20Pimples">Acne</a></li>
+                <li><a href="category.html?type=Glass%20Skin%20%2F%20Brightening">Glass Skin</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1️⃣ HERO SECTION (Emotion First) -->
+    <header class="hero-problem">
+        <div class="container">
+            <h1 id="hero-headline">Stop [Problem] in 14 Days</h1>
+            <p class="agitation-text" id="hero-agitation">
+                Expert-vetted solutions specifically curated for the Indian beauty market.
+            </p>
+            <div class="trust-signals-bar">
+                <div class="trust-signal"><i class="fas fa-shield-alt"></i> Clinically Tested</div>
+                <div class="trust-signal"><i class="fas fa-user-md"></i> Derm Recommended</div>
+                <div class="trust-signal"><i class="fas fa-award"></i> 2026 Expert Picks</div>
+            </div>
+            <div class="hero-ctas">
+                <a href="#editors-pick-featured" class="cta-large">🔥 View Featured Pick</a>
+                <a href="#compare-prices-table" class="cta-large secondary">📊 Compare Prices Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 🧪 DYNAMIC CATEGORY CONTENT (Automatically populated from products-data.js) -->
+        <div id="dynamic-category-content">
+            <!-- Loading State -->
+            <div style="text-align:center; padding: 10rem 0;">
+                <div class="loader-bar"></div>
+                <p style="margin-top: 1rem; color: var(--text-muted);">Curating your personalized solutions...</p>
+            </div>
+        </div>
+
+        <!-- 5️⃣ DECISION HELPER SECTION -->
+        <section class="decision-helper-section" id="decision-helper">
+            <div class="section-header">
+                <h2 style="font-size: 2.5rem;">🤔 Which One Should You Choose?</h2>
+                <p>Guided logic to help you pick the right formula for your specific condition.</p>
+            </div>
+            <div class="decision-grid" id="decision-logic-container">
+                <div class="feature-item" style="text-align: center; padding: 2rem; background: var(--obsidian); border-radius: 8px; border: 1px solid var(--glass-border);">
+                    <h3>For Mild/Daily Needs</h3>
+                    <p style="color: #aaa; margin-top: 10px;">Start with our "Moderate" strength recommendations for easy integration into your routine.</p>
+                </div>
+                <div class="feature-item" style="text-align: center; padding: 2rem; background: var(--obsidian); border-radius: 8px; border: 1px solid var(--glass-border);">
+                    <h3>For Stubborn Issues</h3>
+                    <p style="color: #aaa; margin-top: 10px;">Opt for the "Strong" formulas packed with active ingredients for faster, targeted results.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6️⃣ PSYCHOLOGICAL CLOSE -->
+        <section class="psychological-close" id="psychological-close">
+            <h2 id="close-headline">⚠ Delaying Care Won't Fix Itself</h2>
+            <p class="stakes-text" id="close-stakes">
+                Ignoring these concerns can lead to persistent issues and lower confidence. Take the proactive step toward better health today.
+            </p>
+            <a href="#dynamic-category-content" class="cta-large">🔥 View Our Top Picks Again</a>
+        </section>
+
+        <!-- 7️⃣ TRUST & DISCLOSURE -->
+        <section class="trust-section" style="padding-top: 4rem;">
+            <div class="section-header">
+                <h2 style="font-size: 2.5rem;">Why Trust Luxe Find?</h2>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Ingredient Analysis</h3>
+                    <p>We analyze active concentrations and clinical data for every pick.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-star-half-alt"></i>
+                    <h3>Rating Comparison</h3>
+                    <p>We aggregate real user reviews across 5+ platforms for accuracy.</p>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-history"></i>
+                    <h3>Updated Regularly</h3>
+                    <p>Our lists are refreshed regularly based on new launches and reformulations.</p>
+                </div>
+            </div>
+            <div class="amazon-disclaimer">
+                <p>As an Amazon Associate, we earn from qualifying purchases at no extra cost to you. This supports our independent research team.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom CTA Section -->
+    <section class="section"
+        style="background: var(--bg-soft); text-align: center; border-top: 1px solid var(--border-soft);">
+        <div class="container">
+            <h2>Find Your Perfect Match Today</h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Don't let beauty concerns stand in your way.</p>
+            <a href="index.html#categories" class="btn-primary">Browse Other Concerns</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+                <p class="affiliate-disclosure">As an affiliate, we may earn a commission from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 🚀 SCRIPTS -->
+    <script src="js/products-data.js?v=2"></script>
+    <script src="js/product-renderer.js?v=2"></script>
+    <script src="scripts.js?v=2"></script>
+</body>
+
+</html>
