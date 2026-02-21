@@ -48,40 +48,26 @@ const products = [
         "keyBenefit": "Professional 5-in-1 scalp therapy that controls oil, sweat, odor and discomfort without daily washing.",
         "verdict": "Highly Rated"
     },
-  {
-        "id": "oil-control-8774",
+ {
+        "id": "oil-control-2743",
         "title": "Cutilift Salicylic Acid 2% Face Wash",
         "price": "₹235",
         "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
-        "link": "https://amzn.to/3OqSMaj",
+        "link": "https://amzn.to/4kJCcym",
         "category": ["Oil Control","Acne & Pimples"],
-        "description": "A soap-free, pH-balanced cleanser formulated with 2% Salicylic Acid (BHA) to penetrate deep into pores and dissolve sebum. Enhanced with Tea Tree Oil for its natural antibacterial properties and Niacinamide to soothe inflammation.",
-        "pros": ["* Unbeatable price for the quality","    Effective 2% BHA concentration","    Tea Tree targets acne bacteria","    Non-drying, soap-free formula"],
-        "cons": ["Simple, clinical packaging","May be too strong for very dry skin"],
-        "rating": 4.7,
+        "description": "A deep cleansing gel formula containing 2% Salicylic Acid (BHA) to exfoliate skin and clear pores, enriched with Niacinamide and botanicals to balance oil and improve skin texture.",
+        "pros": ["* Clinically effective 2% BHA","    Tea Tree Oil targets acne bacteria","    Soothing Aloe prevents dryness","    Incredible value for money"],
+        "cons": ["Basic clinical packaging","        Mild fragrance may not suit everyone"],
+        "rating": 4.8,
         "isFeatured": false,
         "tags": ["Trending","Editor's Choice"],
         "bestFor": "Active Acne & Oily Skin",
-        "strength": "Targeted",
+        "strength": "Strong",
         "keyBenefit": "Clears deep-seated blackheads and prevents new breakouts with clinical precision.",
         "verdict": "Expert Choice",
-        "ingredients": "2% Salicylic Acid (BHA)
-
-Tea Tree Oil
-
-Aloe Vera Extract
-
-Niacinamide
-
-Vitamin E",
-        "usage": "Wet face with lukewarm water.
-
-Apply a coin-sized amount and massage in circular motions for 60 seconds.
-
-Focus on the T-zone (forehead, nose, chin) where oil is highest.
-
-Rinse thoroughly and pat dry. Use twice daily.",
-        "whyPicked": "We chose this because it offers the same high-potency ingredients as luxury brands but at a "Pharmacy Price." It is a no-nonsense, results-driven formula that dermatologists in India have trusted for years for oily and blemish-prone skin."
+        "ingredients": "2% Salicylic Acid, Tea Tree Oil, Aloe Vera Extract, Niacinamide, Vitamin E.",
+        "usage": "1. Wet face with lukewarm water. 2. Apply a coin-sized amount and massage for 60 seconds, focusing on the T-zone. 3. Rinse thoroughly and pat dry.",
+        "whyPicked": "We chose this because it delivers dermatological strength at a \"Pharmacy Price.\" It's a no-nonsense solution for stubborn acne that fits easily into a daily budget."
     },
 
     // --- CATEGORY 2: HAIR GROWTH ---
@@ -279,6 +265,7 @@ Rinse thoroughly and pat dry. Use twice daily.",
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
