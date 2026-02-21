@@ -48,25 +48,27 @@ const products = [
         "keyBenefit": "Professional 5-in-1 scalp therapy that controls oil, sweat, odor and discomfort without daily washing.",
         "verdict": "Highly Rated"
     },
-  {
-        "id": "anti-dandruff-5931",
-        "title": "Kitcoz Daily Anti Dandruff & Anti Itch Shampoo (Ceramide + Salicylic Acid)",
-        "price": "₹349",
-        "image": "https://m.media-amazon.com/images/I/71VS7xNQLoL._SL1500_.jpg",
-        "link": "https://amzn.to/4kzm2aT",
-        "category": ["Anti-Dandruff"],
-        "description": "A dermatologist-tested anti-dandruff shampoo formulated with Ichthyol, Salicylic Acid, and Ceramide Complex to gently exfoliate flakes, soothe scalp irritation, and strengthen the hair barrier for daily use.",
-        "pros": ["Gentle non-drying formula","Contains Ceramide for scalp barrier repair","Targets itching and irritation","Suitable for daily use","Free from parabens and sulphates"],
-        "cons": ["Lower review count compared to competitors","May not be strong enough for severe dandruff","Small 100ml size at base price"],
-        "rating": 4.1,
-        "isFeatured": true,
-        "tags": ["Top Rated","Editor's Choice"],
-        "bestFor": "Sensitive & Itchy Scalp (Daily Use)",
-        "strength": "Moderate",
-        "keyBenefit": "Reduces flakes and itching without stripping natural moisture.",
-        "verdict": "Expert Choice"
+ {
+        "id": "oil-control-2743",
+        "title": "Cutilift Salicylic Acid 2% Face Wash",
+        "price": "₹235",
+        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
+        "link": "https://amzn.to/4kJCcym",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "A deep cleansing gel formula containing 2% Salicylic Acid (BHA) to exfoliate skin and clear pores, enriched with Niacinamide and botanicals to balance oil and improve skin texture.",
+        "pros": ["* Clinically effective 2% BHA","    Tea Tree Oil targets acne bacteria","    Soothing Aloe prevents dryness","    Incredible value for money"],
+        "cons": ["Basic clinical packaging","        Mild fragrance may not suit everyone"],
+        "rating": 4.8,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Active Acne & Oily Skin",
+        "strength": "Strong",
+        "keyBenefit": "Clears deep-seated blackheads and prevents new breakouts with clinical precision.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid, Tea Tree Oil, Aloe Vera Extract, Niacinamide, Vitamin E.",
+        "usage": "1. Wet face with lukewarm water. 2. Apply a coin-sized amount and massage for 60 seconds, focusing on the T-zone. 3. Rinse thoroughly and pat dry.",
+        "whyPicked": "We chose this because it delivers dermatological strength at a \"Pharmacy Price.\" It's a no-nonsense solution for stubborn acne that fits easily into a daily budget."
     },
-
     // --- CATEGORY 2: HAIR GROWTH ---
     {
         "id": "hairfall-mamaearth",
@@ -283,6 +285,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
