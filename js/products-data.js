@@ -49,22 +49,25 @@ const products = [
         "verdict": "Highly Rated"
     },
     {
-        "id": "anti-dandruff-5931",
-        "title": "Kitcoz Daily Anti Dandruff & Anti Itch Shampoo (Ceramide + Salicylic Acid)",
-        "price": "₹349",
-        "image": "https://m.media-amazon.com/images/I/71VS7xNQLoL._SL1500_.jpg",
-        "link": "https://amzn.to/4kzm2aT",
-        "category": ["Anti-Dandruff"],
-        "description": "A dermatologist-tested anti-dandruff shampoo formulated with Ichthyol, Salicylic Acid, and Ceramide Complex to gently exfoliate flakes, soothe scalp irritation, and strengthen the hair barrier for daily use.",
-        "pros": ["Gentle non-drying formula", "Contains Ceramide for scalp barrier repair", "Targets itching and irritation", "Suitable for daily use", "Free from parabens and sulphates"],
-        "cons": ["Lower review count compared to competitors", "May not be strong enough for severe dandruff", "Small 100ml size at base price"],
-        "rating": 4.1,
-        "isFeatured": true,
-        "tags": ["Top Rated", "Editor's Choice"],
-        "bestFor": "Sensitive & Itchy Scalp (Daily Use)",
-        "strength": "Moderate",
-        "keyBenefit": "Reduces flakes and itching without stripping natural moisture.",
-        "verdict": "Expert Choice"
+        "id": "acne-pimples-6861",
+        "title": "California Skin+ Anti-Acne Serum",
+        "price": "₹285",
+        "image": "https://m.media-amazon.com/images/I/61yhN6MeuhL._SL1080_.jpg",
+        "link": "https://amzn.to/4qRdehY",
+        "category": ["Acne & Pimples","Glass Skin / Brightening"],
+        "description": "A concentrated anti-acne treatment featuring 2% Salicylic Acid to exfoliate deep within pores, combined with 4% Niacinamide and Zinc PCA to regulate sebum and strengthen the skin barrier. Includes Licorice and Seaweed extracts to soothe inflammation instantly.",
+        "pros": ["Massive 56% discount (Limited Time)","    High 4% Niacinamide for marking fading","    Fragrance-free and Vegan","    Non-greasy, water-like texture"],
+        "cons": ["20g is a slightly smaller bottle than standard","Powerful actives might cause slight purging initially"],
+        "rating": 5,
+        "isFeatured": false,
+        "tags": ["Top Rated","Luxury Pick"],
+        "bestFor": "Active Pimples & Pimple Marks",
+        "strength": "Strong",
+        "keyBenefit": "Shrinks active acne while fading post-pimple dark spots simultaneously.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid (BHA)\n\n4% Niacinamide\n\nZinc PCA\n\nPrebiotics Complex\n\nLicorice & Seaweed Extract",
+        "usage": "After cleansing, apply 2-3 drops to the entire face or just the affected areas.\n\nGently pat into the skin until fully absorbed.\n\nFollow with a lightweight, oil-free moisturizer.\n\nAlways wear sunscreen during the day when using this serum.",
+        "whyPicked": "We picked it because it’s the \"Lowest Price in 30 Days.\" You are getting a premium \"Acne Buster\" complex that usually costs ₹650 for just ₹285. It is the smartest way to upgrade your skincare routine without spending a fortune."
     },
     // --- CATEGORY 2: HAIR GROWTH ---
     {
@@ -282,6 +285,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
