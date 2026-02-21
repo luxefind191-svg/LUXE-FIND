@@ -159,7 +159,7 @@ const products = [
         "bestFor": "Oily Acne Skin",
         "strength": "Strong",
         "keyBenefit": "Exfoliates Pores",
-        "verdict": "Daily Essential"
+        "verdict": "Expert Choice"
     },
     {
         "id": "acne-cosrx",
@@ -282,6 +282,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
