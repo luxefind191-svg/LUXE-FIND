@@ -165,22 +165,25 @@ const products = [
         "verdict": "Expert Choice"
     },
     {
-        "id": "acne-cosrx",
-        "title": "COSRX Master Patch Original",
-        "price": "₹280",
-        "image": "https://m.media-amazon.com/images/I/51B3kG-6FML._SL1000_.jpg",
-        "link": "https://amzn.to/3...",
-        "category": ["Acne & Pimples"],
-        "description": "The cult-favorite hydrocolloid patches that heal pimples overnight.",
-        "pros": ["Invisible", "Heals fast", "Absorbs gunk"],
-        "cons": ["One-time use only"],
-        "rating": 4.9,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Active Pimples",
-        "strength": "Targeted",
-        "keyBenefit": "Overnight Heal",
-        "verdict": "Must-Have"
+        "id": "acne-pimples-6861",
+        "title": "California Skin+ Anti-Acne Serum",
+        "price": "₹285",
+        "image": "https://m.media-amazon.com/images/I/61yhN6MeuhL._SL1080_.jpg",
+        "link": "https://amzn.to/4qRdehY",
+        "category": ["Acne & Pimples","Glass Skin / Brightening"],
+        "description": "A concentrated anti-acne treatment featuring 2% Salicylic Acid to exfoliate deep within pores, combined with 4% Niacinamide and Zinc PCA to regulate sebum and strengthen the skin barrier. Includes Licorice and Seaweed extracts to soothe inflammation instantly.",
+        "pros": ["Massive 56% discount (Limited Time)","    High 4% Niacinamide for marking fading","    Fragrance-free and Vegan","    Non-greasy, water-like texture"],
+        "cons": ["20g is a slightly smaller bottle than standard","Powerful actives might cause slight purging initially"],
+        "rating": 5,
+        "isFeatured": false,
+        "tags": ["Top Rated","Luxury Pick"],
+        "bestFor": "Active Pimples & Pimple Marks",
+        "strength": "Strong",
+        "keyBenefit": "Shrinks active acne while fading post-pimple dark spots simultaneously.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid (BHA)\n\n4% Niacinamide\n\nZinc PCA\n\nPrebiotics Complex\n\nLicorice & Seaweed Extract",
+        "usage": "After cleansing, apply 2-3 drops to the entire face or just the affected areas.\n\nGently pat into the skin until fully absorbed.\n\nFollow with a lightweight, oil-free moisturizer.\n\nAlways wear sunscreen during the day when using this serum.",
+        "whyPicked": "We picked it because it’s the \"Lowest Price in 30 Days.\" You are getting a premium \"Acne Buster\" complex that usually costs ₹650 for just ₹285. It is the smartest way to upgrade your skincare routine without spending a fortune."
     },
     {
         "id": "oil-control-2743",
@@ -285,6 +288,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
