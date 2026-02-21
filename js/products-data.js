@@ -126,27 +126,6 @@ const products = [
     },
 
     // --- CATEGORY 4: ACNE & PIMPLES ---
-   {
-        "id": "oil-control-1230",
-        "title": "Cutilift Salicylic Acid 2% Face Wash",
-        "price": "₹235",
-        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
-        "link": "https://amzn.to/4rW9sVs",
-        "category": ["Oil Control","Acne & Pimples"],
-        "description": "A deep-cleansing gel formula with 2% Salicylic Acid for exfoliation, Niacinamide for texture improvement, and a botanical blend of Tea Tree and Aloe Vera for a soothing experience.",
-        "pros": ["Professional Pharma Grade","    Very affordable (₹235)","    pH Balanced & Non-greasy","    Enriched with soothing Aloe Vera"],
-        "cons": ["80ml is a travel-friendly but smaller size","Clinical scent rather than floral"],
-        "rating": 4.8,
-        "isFeatured": false,
-        "tags": ["Trending","Editor's Choice"],
-        "bestFor": "Deep Cleansing & Oily Skin",
-        "strength": "Moderate",
-        "keyBenefit": "Clears pores and dissolves excess oil without over-drying the skin.",
-        "verdict": "Expert Choice",
-        "ingredients": "2% Salicylic Acid, Tea Tree Extract, Aloe Vera, Niacinamide.",
-        "usage": "Apply to wet face. 2. Massage gently in circular motions for 60 seconds. 3. Rinse thoroughly with water. Use daily for best results.",
-        "whyPicked": "It’s the ultimate budget-friendly professional cleanser. For just ₹235, you get a pH-balanced, clinical formula that rivals expensive luxury brands."
-    },
     {
         "id": "acne-pimples-6861",
         "title": "California Skin+ Anti-Acne Serum",
@@ -169,6 +148,27 @@ const products = [
         "whyPicked": "We picked it because it’s the \"Lowest Price in 30 Days.\" You are getting a premium \"Acne Buster\" complex that usually costs ₹650 for just ₹285. It is the smartest way to upgrade your skincare routine without spending a fortune.",
     },
   
+  {
+        "id": "oil-control-1230",
+        "title": "Cutilift Salicylic Acid 2% Face Wash",
+        "price": "₹235",
+        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
+        "link": "https://amzn.to/4rW9sVs",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "A deep-cleansing gel formula with 2% Salicylic Acid for exfoliation, Niacinamide for texture improvement, and a botanical blend of Tea Tree and Aloe Vera for a soothing experience.",
+        "pros": ["Professional Pharma Grade","    Very affordable (₹235)","    pH Balanced & Non-greasy","    Enriched with soothing Aloe Vera"],
+        "cons": ["80ml is a travel-friendly but smaller size","Clinical scent rather than floral"],
+        "rating": 4.8,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Deep Cleansing & Oily Skin",
+        "strength": "Moderate",
+        "keyBenefit": "Clears pores and dissolves excess oil without over-drying the skin.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid, Tea Tree Extract, Aloe Vera, Niacinamide.",
+        "usage": "Apply to wet face. 2. Massage gently in circular motions for 60 seconds. 3. Rinse thoroughly with water. Use daily for best results.",
+        "whyPicked": "It’s the ultimate budget-friendly professional cleanser. For just ₹235, you get a pH-balanced, clinical formula that rivals expensive luxury brands."
+    },
     // --- CATEGORY 5: GLASS SKIN ---
     {
         "id": "glass-pink",
@@ -250,6 +250,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
