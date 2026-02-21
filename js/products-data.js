@@ -126,23 +126,26 @@ const products = [
     },
 
     // --- CATEGORY 4: ACNE & PIMPLES ---
-    {
-        "id": "acne-minimalist",
-        "title": "Minimalist Salicylic Acid Cleanser",
-        "price": "₹299",
-        "image": "https://m.media-amazon.com/images/I/61kGv6r5ZVL._SL1500_.jpg",
-        "link": "https://amzn.to/3...",
-        "category": ["Acne & Pimples"],
-        "description": "2% Salicylic Acid + LHA formula to deep clean pores and prevent future breakouts.",
-        "pros": ["Fragrance-free", "Non-comedogenic", "Budget friendly"],
-        "cons": ["Slightly drying for dry skin type"],
+   {
+        "id": "oil-control-1230",
+        "title": "Cutilift Salicylic Acid 2% Face Wash",
+        "price": "₹235",
+        "image": "https://m.media-amazon.com/images/I/51ga6J8i7ML._SL1080_.jpg",
+        "link": "https://amzn.to/4rW9sVs",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "A deep-cleansing gel formula with 2% Salicylic Acid for exfoliation, Niacinamide for texture improvement, and a botanical blend of Tea Tree and Aloe Vera for a soothing experience.",
+        "pros": ["Professional Pharma Grade","    Very affordable (₹235)","    pH Balanced & Non-greasy","    Enriched with soothing Aloe Vera"],
+        "cons": ["80ml is a travel-friendly but smaller size","Clinical scent rather than floral"],
         "rating": 4.8,
-        "isFeatured": true,
-        "tags": ["Top Rated", "Trending"],
-        "bestFor": "Oily Acne Skin",
-        "strength": "Strong",
-        "keyBenefit": "Exfoliates Pores",
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Deep Cleansing & Oily Skin",
+        "strength": "Moderate",
+        "keyBenefit": "Clears pores and dissolves excess oil without over-drying the skin.",
         "verdict": "Expert Choice",
+        "ingredients": "2% Salicylic Acid, Tea Tree Extract, Aloe Vera, Niacinamide.",
+        "usage": "Apply to wet face. 2. Massage gently in circular motions for 60 seconds. 3. Rinse thoroughly with water. Use daily for best results.",
+        "whyPicked": "It’s the ultimate budget-friendly professional cleanser. For just ₹235, you get a pH-balanced, clinical formula that rivals expensive luxury brands."
     },
     {
         "id": "acne-pimples-6861",
@@ -247,6 +250,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
