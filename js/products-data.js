@@ -191,23 +191,26 @@ const products = [
         "usage": "1. Massage the Gel Cleanser onto wet face and rinse.\n2. Apply 2-3 drops of the Serum to damp skin.\n3. Tap gently and follow with moisturizer.",
         "whyPicked": "It’s the #1 selling serum in India paired with its perfect cleanser match at a 31% discount—it's a no-brainer for anyone wanting clear, glowing skin by tomorrow."
     },
-    {
-        "id": "glass-laneige",
-        "title": "Laneige Blue Hyaluronic Serum",
-        "price": "₹3,400",
-        "image": "https://m.media-amazon.com/images/I/51B-v+v+v+L._SL1500_.jpg",
-        "link": "#",
+     {
+        "id": "glass-skin-/-brightening-4642",
+        "title": "Pilgrim Korean Rice Water Hydra Glow Moisturizer (with 5 Hyaluronic Acids & 3% Niacinamide)",
+        "price": "₹238",
+        "image": "https://m.media-amazon.com/images/I/613LX1k416L._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg",
+        "link": "https://amzn.to/4spgLWb",
         "category": ["Glass Skin / Brightening"],
-        "description": "Micro-sized hyaluronic acid for deep hydration and dewy translucency.",
-        "pros": ["Deep hydration", "Premium feel", "Dewy finish"],
-        "cons": ["Very expensive"],
-        "rating": 4.8,
-        "isFeatured": true,
-        "tags": ["Trending"],
-        "bestFor": "Dry/Dull Skin",
-        "strength": "Moderate",
-        "keyBenefit": "Deeply Hydrates",
-        "verdict": "Luxury Hydration",
+        "description": "A lightweight, quick-absorbing gel cream formulated with Korean Rice Water, 3% Niacinamide, and 5 types of Hyaluronic Acids. Designed to strengthen the skin barrier with 5 Ceramides while providing multi-depth hydration.",
+        "pros": ["Instant Glass-Skin Finish","Contains 5 types of Hyaluronic Acids","Lightweight & Non-greasy","Fragrance-free & Vegan"],
+        "cons": ["50g Jar might finish quickly if used twice daily","Wait for it to fully dry before applying makeup"],
+        "rating": 4.1,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Instant Glass Skin Glow & Deep Pore Hydration",
+        "strength": "Strong",
+        "keyBenefit": "The K-Beauty secret to a translucent, \"Glass-Like\" glow in a lightweight gel.",
+        "verdict": "Expert Choice",
+        "ingredients": "Korean Rice Water, 5 Hyaluronic Acids, 3% Niacinamide, 5 Ceramides, Mulberry Extract.",
+        "usage": "1. Cleanse with a mild wash. 2. Apply a small amount to the face and neck. 3. Massage in upward circular motions. 4. Use twice daily for the best \"Glass Skin\" results.",
+        "whyPicked": "It offers a professional 5-Ceramide barrier repair and a multi-hyaluronic glow for under ₹250. It’s the easiest way to get the \"K-Glow\" without the high price tag."
     },
 
     // --- CATEGORY 6: LIP CARE ---
@@ -253,6 +256,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
