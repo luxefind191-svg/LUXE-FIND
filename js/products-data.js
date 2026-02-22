@@ -171,22 +171,25 @@ const products = [
     },
     // --- CATEGORY 5: GLASS SKIN ---
     {
-        "id": "glass-pink",
-        "title": "The Pink Foundry 12% Niacinamide",
-        "price": "₹599",
-        "image": "https://m.media-amazon.com/images/I/61v-v+v+v+L._SL1500_.jpg",
-        "link": "https://amzn.to/3...",
+        "id": "glass-skin-/-brightening-6042",
+        "title": "L'Oreal Paris Revitalift \"Glass Skin\" Routine (Serum + Gel Cleanser)",
+        "price": "₹522",
+        "image": "https://m.media-amazon.com/images/I/51077fvCzPL._SL1094_.jpg",
+        "link": "https://amzn.to/40prrrA",
         "category": ["Glass Skin / Brightening"],
-        "description": "Serum to refine pores and treated pigmentation for a luminous finish.",
-        "pros": ["Reduces pores", "Brightens skin", "Non-sticky"],
-        "cons": ["Takes 4 weeks for full results"],
-        "rating": 4.7,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Pore Refinement",
-        "strength": "Moderate",
-        "keyBenefit": "Clears Spots",
-        "verdict": "Glow Essential",
+        "description": "A clinically validated bundle featuring a 50ml Hyaluronic Gel Cleanser and a 15ml 1.5% Hyaluronic Acid Serum. Designed to reduce fine lines by 60% and intensely re-plump the skin.",
+        "pros": ["31% Bundle Discount","Visible results in 1 hour","Non-sticky & Lightweight","Fragrance-free & Paraben-free"],
+        "cons": ["Small serum bottle (15ml)","Sells out quickly during sales"],
+        "rating": 4.8,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Instant Plumping & Monday Morning Glow",
+        "strength": "Strong",
+        "keyBenefit": "Get the viral \"Glass Skin\" look with this 2-step hydration power duo.",
+        "verdict": "Expert Choice",
+        "ingredients": "1.5% Hyaluronic Acid (Macro & Micro), Panthenol, Glycerin, Salicylic Acid (low % in cleanser for pore prep).",
+        "usage": "1. Massage the Gel Cleanser onto wet face and rinse.\n2. Apply 2-3 drops of the Serum to damp skin.\n3. Tap gently and follow with moisturizer.",
+        "whyPicked": "It’s the #1 selling serum in India paired with its perfect cleanser match at a 31% discount—it's a no-brainer for anyone wanting clear, glowing skin by tomorrow."
     },
     {
         "id": "glass-laneige",
@@ -250,6 +253,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
