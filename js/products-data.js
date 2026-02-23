@@ -194,9 +194,9 @@ const products = [
      {
         "id": "glass-skin-/-brightening-4642",
         "title": "Pilgrim Korean Rice Water Hydra Glow Moisturizer (with 5 Hyaluronic Acids & 3% Niacinamide)",
-        "price": "₹238",
+        "price": "₹241",
         "image": "https://m.media-amazon.com/images/I/613LX1k416L._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg",
-        "link": "https://amzn.to/4spgLWb",
+        "link": "https://amzn.to/4qU9koF",
         "category": ["Glass Skin / Brightening"],
         "description": "A lightweight, quick-absorbing gel cream formulated with Korean Rice Water, 3% Niacinamide, and 5 types of Hyaluronic Acids. Designed to strengthen the skin barrier with 5 Ceramides while providing multi-depth hydration.",
         "pros": ["Instant Glass-Skin Finish","Contains 5 types of Hyaluronic Acids","Lightweight & Non-greasy","Fragrance-free & Vegan"],
@@ -256,6 +256,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
