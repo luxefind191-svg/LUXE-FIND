@@ -212,6 +212,27 @@ const products = [
         "usage": "1. Cleanse with a mild wash. 2. Apply a small amount to the face and neck. 3. Massage in upward circular motions. 4. Use twice daily for the best \"Glass Skin\" results.",
         "whyPicked": "It offers a professional 5-Ceramide barrier repair and a multi-hyaluronic glow for under ₹250. It’s the easiest way to get the \"K-Glow\" without the high price tag."
     },
+     {
+        "id": "glass-skin-/-brightening-2299",
+        "title": "Pilgrim 10% Vitamin C Serum for Glowing Skin",
+        "price": "₹527",
+        "image": "https://m.media-amazon.com/images/I/71BTAV8rtdL._SL1500_.jpg",
+        "link": "https://amzn.to/4s503ed",
+        "category": ["Glass Skin / Brightening"],
+        "description": "A potent blend of 10% Vitamin C, 5% Niacinamide, and Hyaluronic Acid designed to fade pigmentation and hydrate.",
+        "pros": ["Fades dark spots fast, Beginner friendly, Non-greasy formula, Paraben-free"],
+        "cons": ["Requires consistent sunscreen use, Scent may be too mild for some"],
+        "rating": 4,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending"],
+        "bestFor": "Dark Spots & Dullness",
+        "strength": "Strong",
+        "keyBenefit": "Brighter skin in just 5 days ✨",
+        "verdict": "Expert Choice",
+        "ingredients": "10% Vitamin C, 5% Niacinamide, Hyaluronic Acid, Glycolic Acid",
+        "usage": "1. Cleanse face. 2. Apply 3-5 drops to face and neck. 3. Pat gently. 4. Follow with sunscreen.",
+        "whyPicked": "It’s an Amazon #1 Best Seller that combines three powerhouse ingredients for under ₹550."
+    },
 
     // --- CATEGORY 6: LIP CARE ---
     {
@@ -256,6 +277,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
