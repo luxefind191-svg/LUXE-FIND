@@ -68,23 +68,26 @@ const products = [
         "keyBenefit": "Strengthens Roots",
         "verdict": "Crowd Favorite",
     },
-    {
-        "id": "growth-wishcare",
-        "title": "WishCare Hair Growth Serum",
-        "price": "₹699",
-        "image": "https://m.media-amazon.com/images/I/61S-rO2+6kL._SL1500_.jpg",
-        "link": "https://amzn.to/3...",
+   {
+        "id": "hair-growth-3607",
+        "title": "Pilgrim Spanish Rosemary & Biotin Anti-Hairfall Shampoo",
+        "price": "₹274 (10% Off)",
+        "image": "https://m.media-amazon.com/images/I/617W5aVW4fL._SL1500_.jpg",
+        "link": "https://amzn.to/4aXkV0b",
         "category": ["Hair Growth"],
-        "description": "Powerful blend of Redensyl, Anagain, and Biotin to boost hair density.",
-        "pros": ["Visible results in 8 weeks", "Non-greasy", "Natural actives"],
-        "cons": ["Requires consistency"],
-        "rating": 4.7,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Thinning Hair",
-        "strength": "Strong",
-        "keyBenefit": "Boosts Density",
-        "verdict": "Best Results",
+        "description": "A potent anti-hairfall treatment enriched with Spanish Rosemary (Rosmarinic Acid) to stimulate follicles and Biotin to reinforce the hair shaft, reducing breakage by up to 95%.",
+        "pros": ["Natural DHT Blocker 🌿","    Strengthens hair up to 95%","    Stimulates new hair growth","    Budget-friendly Luxe find (₹274)"],
+        "cons": ["Needs consistent use for 4 weeks for best results","    Scent might be strong for some"],
+        "rating": 4.1,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Hair thinning and excessive breakage.",
+        "strength": "Targeted",
+        "keyBenefit": "Stop the \"Heartbreak\" of hair fall with the power of Natural DHT Blockers. [cite: 2026-02-23]",
+        "verdict": "Expert Choice",
+        "ingredients": "Spanish Rosemary, Biotin, Rosmarinic Acid.",
+        "usage": "Apply to wet hair.\n    2. Massage deeply into the scalp using fingertips to stimulate blood flow.\n    3. Rinse thoroughly for stronger, cleaner hair.",
+        "whyPicked": "6,000+ people bought this last month because it actually blocks the hormone (DHT) responsible for hair loss. [cite: 2026-02-23]"
     },
 
     // --- CATEGORY 3: OIL CONTROL ---
@@ -277,6 +280,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
