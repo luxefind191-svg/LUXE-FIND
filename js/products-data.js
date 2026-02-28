@@ -50,23 +50,26 @@ const products = [
     },
 
     // --- CATEGORY 2: HAIR GROWTH ---
-    {
-        "id": "hairfall-mamaearth",
-        "title": "Mamaearth Onion Shampoo",
-        "price": "₹349",
-        "image": "https://m.media-amazon.com/images/I/61r5K-x+v+L._SL1500_.jpg",
-        "link": "https://amzn.to/4...",
+   {
+        "id": "hair-growth-0470",
+        "title": "Soulflower Rosemary Lavender Healthy Hair Oil",
+        "price": "₹466 (Massive 42% Savings)",
+        "image": "https://m.media-amazon.com/images/I/41aCZXKfmpL.jpg",
+        "link": "https://amzn.to/4aQgqpz",
         "category": ["Hair Growth"],
-        "description": "Onion and Plant Keratin to reduce hair fall and strengthen hair follicles.",
-        "pros": ["Natural ingredients", "No toxins", "Softens hair"],
-        "cons": ["Smell is polarizing"],
-        "rating": 4.7,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Daily Hair Fall Control",
-        "strength": "Moderate",
-        "keyBenefit": "Strengthens Roots",
-        "verdict": "Crowd Favorite",
+        "description": "\"A professional-grade, 100% pure and undiluted cold-pressed hair treatment formulated for scalp revitalization and follicle stimulation. This oil utilizes Carnosic Acid from Spanish Rosemary to repair tissue damage and improve cellular turnover at the root, mimicking the effects of Minoxidil without the chemical side effects. Enriched with Linalyl Acetate (Lavender) to reduce scalp inflammation and a base of Castor and Rice Bran oils to provide essential fatty acids that seal the hair cuticle and prevent breakage.\"",
+        "pros": ["Natural DHT Blocker: Rosemary is scientifically recognized for blocking the hormone responsible for male and female pattern baldness.","Maximum Value: The ₹466 Pack of 2 deal offers a 42% saving, making it a high-conversion \"Budget Luxe\" find.","Cold-Pressed Purity: Unlike heat-processed oils, this maintains 100% of its nutrient potency for faster results.","Multi-Action Formula: It doesn't just grow hair; it moisturizes the scalp and repairs damage with Castor and Jojoba oil.","90-Day Results: Provides a clear timeline for users to track baby hair growth on their hairline."],
+        "cons": ["Consistency is Key: Requires 3 applications per week for at least 3 months to see visible regrowth; not an overnight fix.","    Strong Scent: The natural, undiluted Rosemary and Lavender scent can be quite herbal/strong for sensitive users.","    Consistency: Being a pure oil blend, it can feel heavy if not washed out properly with a good clarifying shampoo."],
+        "rating": 5,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice","Luxury Pick"],
+        "bestFor": "Thinning hairlines, patchy hair fall, and dry/itchy scalps.",
+        "strength": "Targeted",
+        "keyBenefit": "The \"Natural Minoxidil\" that regrows baby hair in 90 days.",
+        "verdict": "Expert Choice",
+        "ingredients": "Rosemary Oil, Lavender Oil, Castor Oil, Jojoba Oil, Amla, and Vitamin E.",
+        "usage": "1. Apply 2-3 ml to damp hair/scalp.\n2. Massage in circular motions for 3-5 minutes to boost circulation.\n3. Leave overnight and wash 3 times weekly for 90 days.",
+        "whyPicked": "It’s a 100% natural \"Hair Growth Regime\" in a bottle, combining the follicle-stimulating power of Rosemary with the scalp-soothing benefits of Lavender."
     },
    {
         "id": "hair-growth-3607",
@@ -280,6 +283,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
