@@ -241,23 +241,26 @@ const products = [
     },
 
     // --- CATEGORY 6: LIP CARE ---
-    {
-        "id": "lip-laneige",
-        "title": "Laneige Lip Sleeping Mask",
-        "price": "₹600",
-        "image": "https://m.media-amazon.com/images/I/51Rv-v+v+v+L._SL1000_.jpg",
-        "link": "https://amzn.to/3...",
+   {
+        "id": "lip-care-3397",
+        "title": "SPRING H2O Velvet Hold Matte Liquid Lipstick",
+        "price": "₹229",
+        "image": "https://m.media-amazon.com/images/I/51gPdIPBGEL._SL1080_.jpg",
+        "link": "https://amzn.to/46BXdVY",
         "category": ["Lip Care"],
-        "description": "Intense overnight repair for soft, plump lips by morning.",
-        "pros": ["Global bestseller", "Deep repair", "Delicious scent"],
-        "cons": ["Luxury price"],
+        "description": "A smudgeproof and waterproof liquid lipstick featuring stay-put pigments and a lightweight, cushiony texture for 12–16 hour comfortable wear.",
+        "pros": ["Incredible value (49% off MSRP).","True 12–16 hour staying power.","Completely smudgeproof and mask-friendly.","High-precision applicator for a professional edge."],
+        "cons": ["Highly pigmented; requires an oil-based cleanser to remove.","    Matte finish may require a balm base for extremely dry lips."],
         "rating": 4.9,
-        "isFeatured": true,
-        "tags": ["Top Rated"],
-        "bestFor": "Chapped Lips",
-        "strength": "Strong",
-        "keyBenefit": "Repair Lips",
-        "verdict": "Gold Standard",
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "All-Day Wear & Transfer-Proof Color",
+        "strength": "Targeted",
+        "keyBenefit": "Bold, velvety color that stays on your lips and off your coffee cup.",
+        "verdict": "Expert Choice",
+        "ingredients": "Stay-put pigments, Velvet-softening agents, Waterproof polymers.",
+        "usage": "1. Outline lips with the precision doe-foot applicator. 2. Fill in with a single stroke. 3. Let it set for 60 seconds for a transfer-proof finish.",
+        "whyPicked": "It solves the \"cracked lip\" dilemma. Most long-wear lipsticks feel heavy, but this feels like air while surviving an entire workday and dinner."
     },
       {
         "id": "lip-care-7205",
@@ -286,6 +289,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
