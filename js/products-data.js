@@ -259,23 +259,26 @@ const products = [
         "keyBenefit": "Repair Lips",
         "verdict": "Gold Standard",
     },
-    {
-        "id": "lip-wishcare",
-        "title": "Wishcare SPF 50 Lip Balm",
-        "price": "₹299",
-        "image": "https://m.media-amazon.com/images/I/61B-v+v+v+L._SL1500_.jpg",
-        "link": "#",
+      {
+        "id": "lip-care-7205",
+        "title": "Seoulskin Brightening Lip Balm SPF 50 PA++",
+        "price": "₹349",
+        "image": "https://m.media-amazon.com/images/I/61HLNYskO0L._SL1500_.jpg",
+        "link": "https://amzn.to/4cXo6rb",
         "category": ["Lip Care"],
-        "description": "Daily sun protection with Ceramides to prevent pigmented lips.",
-        "pros": ["High SPF", "Ceramide repair", "No white cast"],
-        "cons": ["Basic flavor"],
-        "rating": 4.6,
+        "description": "A potent brightening lip treatment formulated with Kojic Acid and Niacinamide to inhibit melanin production while providing heavy-duty SPF 50 protection.",
+        "pros": ["Clinical-grade brightening with Kojic Acid.","Maximum UV protection (SPF 50 PA++).","Non-sticky, glossy \"glass skin\" finish.","Repairs the moisture barrier with Ceramides."],
+        "cons": ["Only one flavor/scent available (Fruity).","10g tube might run out fast with frequent reapplication."],
+        "rating": 4.9,
         "isFeatured": false,
-        "tags": ["Trending"],
-        "bestFor": "Sun Protection",
-        "strength": "Moderate",
-        "keyBenefit": "Prevents Dark",
-        "verdict": "Daily Must-Have",
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Dark, Pigmented & Chapped Lips",
+        "strength": "Targeted",
+        "keyBenefit": "Erase lip pigmentation and reveal your natural pink glow.",
+        "verdict": "Expert Choice",
+        "ingredients": "Kojic Acid, Niacinamide, Ceramides, SPF 50 PA++, Fruity Extracts.",
+        "usage": "1. Apply a generous layer to clean lips. 2. Use 15 minutes before sun exposure. 3. Reapply every 2-3 hours for maximum brightening results.",
+        "whyPicked": "Most lip balms just hide the problem; this one actually fixes it. It’s the ultimate \"skincaring\" hack for anyone tired of hiding dark lips under heavy lipstick."
     },
 ];
 
@@ -283,6 +286,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
