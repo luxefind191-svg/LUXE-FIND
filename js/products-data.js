@@ -285,23 +285,26 @@ const products = [
     },
 
     // --- CATEGORY 7: MAKEUP & SKINCARE ---
-    {
-        "id": "makeup-skincare-9901",
-        "title": "Maybelline New York Liquid Foundation (Matte + Poreless)",
-        "price": "₹599",
-        "image": "https://m.media-amazon.com/images/I/51-m5K9Fm7L._SL1000_.jpg",
-        "link": "https://amzn.to/3...",
+     {
+        "id": "makeup-skincare-1054",
+        "title": "Fixderma Shadow Invisible Sunscreen Stick SPF 50 PA+++",
+        "price": "₹399",
+        "image": "https://m.media-amazon.com/images/I/51FSnymPlzL._SL1200_.jpg",
+        "link": "https://amzn.to/4ldHORI",
         "category": ["Makeup & Skincare"],
-        "description": "A cult-favorite matte foundation that matches skin tone and texture. Ideal for oily to normal skin, it features micro-powders to control shine and blur pores.",
-        "pros": ["Extensive shade range", "Natural matte finish", "Affordable professional results", "Dermatologist tested"],
-        "cons": ["May require a primer for dry skin", "Glass bottle without pump in some variants"],
-        "rating": 4.5,
-        "isFeatured": true,
-        "tags": ["Best Seller", "Trending"],
-        "bestFor": "Flawless Matte Finish",
-        "strength": "Moderate",
-        "keyBenefit": "Blurs pores and controls oil for up to 12 hours.",
+        "description": "A lightweight, non-comedogenic sunscreen stick that provides broad-spectrum UVA/UVB protection with an invisible, natural finish.",
+        "pros": ["Completely invisible finish.","    Non-greasy and lightweight.","    Travel-friendly and mess-free.","    Water-resistant formula."],
+        "cons": ["Small 15g size may finish quickly with daily use.","    Requires multiple passes for full coverage."],
+        "rating": 4.4,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "On-the-go reapplication and makeup wearers.",
+        "strength": "Targeted",
+        "keyBenefit": "The \"Zero-Trace\" shield that stays invisible even over your makeup.",
         "verdict": "Expert Choice",
+        "ingredients": "Uvinul A Plus (Advanced UV Filter), Vitamin E, Avocado Oil, and Jojoba Seed Oil.",
+        "usage": "1. Twist the base to reveal the stick.\n2. Glide directly onto face and neck.\n3. Reapply every 2 hours, even over makeup.",
+        "whyPicked": "It solves the \"White Cast\" nightmare forever. Perfect for Indian skin tones where traditional sunscreens often look ashy or gray."
     },
     {
         "id": "makeup-skincare-8802",
@@ -327,6 +330,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
