@@ -307,22 +307,25 @@ const products = [
         "whyPicked": "It solves the \"White Cast\" nightmare forever. Perfect for Indian skin tones where traditional sunscreens often look ashy or gray."
     },
     {
-        "id": "makeup-skincare-8802",
-        "title": "The Derma Co 10% Vitamin C Face Serum",
-        "price": "₹649",
-        "image": "https://m.media-amazon.com/images/I/51m-Z0L7KcL._SL1000_.jpg",
-        "link": "https://amzn.to/3...",
-        "category": ["Makeup & Skincare", "Glass Skin / Brightening"],
-        "description": "A powerful antioxidant serum with 10% Vitamin C, 5% Niacinamide, and Hyaluronic Acid to brighten skin and reduce dark spots.",
-        "pros": ["Fragrance-free", "Stabilized Vitamin C", "Suitable for all skin types", "Effective on pigmentation"],
-        "cons": ["May cause slight tingling", "Requires sunscreen during the day"],
+        "id": "makeup-skincare-2312",
+        "title": "BAKE De-Tan Scrub Treatment Coffee Soap",
+        "price": "₹349",
+        "image": "https://m.media-amazon.com/images/I/61rc4Qz37sL._SL1500_.jpg",
+        "link": "https://amzn.to/4uudNBu",
+        "category": ["Makeup & Skincare"],
+        "description": "A specialized de-tan treatment soap formulated with 2% Kojic Acid, 1% Glycolic Acid, and 1% Alpha Arbutin to target melanin production and exfoliate dead skin cells.",
+        "pros": ["* Visibly reduces tan and pigmentation.","    Real coffee granules for effective exfoliation.","    Pack of 2 offers great value for money.","    Safe for both Face and Body."],
+        "cons": ["* Might be slightly drying for very sensitive skin.","    Coffee granules may feel coarse if rubbed too hard."],
         "rating": 4.3,
         "isFeatured": false,
-        "tags": ["Top Rated"],
-        "bestFor": "Skin Brightening",
-        "strength": "Strong",
-        "keyBenefit": "Fades dark spots and improves skin radiance.",
-        "verdict": "Highly Rated",
+        "tags": ["Top Rated","Trending","Editor's Choice","Luxury Pick"],
+        "bestFor": "Stubborn sun tan, dark underarms, and uneven skin texture.",
+        "strength": "Targeted",
+        "keyBenefit": "Scrub away the tan and reveal brighter skin with the power of Coffee and Kojic Acid.",
+        "verdict": "Expert Choice",
+        "ingredients": "2% Kojic Acid, 1% Glycolic Acid, 1% Alpha Arbutin, Niacinamide, Natural Coffee Granules.",
+        "usage": "1. Wet skin with lukewarm water.\n2. Gently massage the soap bar directly onto tanned areas in a circular motion.\n3. Leave the lather on for 30–60 seconds for the active acids to work.\n4. Rinse thoroughly and pat dry.",
+        "whyPicked": "It hits the \"Triple Brightening\" trend—Kojic Acid, Alpha Arbutin, and Niacinamide all in one bar. It’s a \"Salon-Style\" de-tan treatment at a fraction of the cost."
     },
 ];
 
@@ -330,6 +333,7 @@ const products = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = products;
 }
+
 
 
 
