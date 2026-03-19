@@ -327,6 +327,27 @@ const products = [
         "usage": "1. Wet skin with lukewarm water.\n2. Gently massage the soap bar directly onto tanned areas in a circular motion.\n3. Leave the lather on for 30–60 seconds for the active acids to work.\n4. Rinse thoroughly and pat dry.",
         "whyPicked": "It hits the \"Triple Brightening\" trend—Kojic Acid, Alpha Arbutin, and Niacinamide all in one bar. It’s a \"Salon-Style\" de-tan treatment at a fraction of the cost."
     },
+      {
+        "id": "glass-skin-brightening-3279",
+        "title": "Mamaearth Beetroot Daily Glow Face Cream",
+        "price": "₹224",
+        "image": "https://m.media-amazon.com/images/I/618F9ahdAIL._SL1500_.jpg",
+        "link": "https://amzn.to/4uDyhYl",
+        "category": ["Glass Skin / Brightening","Makeup & Skincare"],
+        "description": " This dermatologically tested, Made Safe certified cream utilizes the antioxidant properties of Beetroot and the moisture-locking power of Hyaluronic Acid to protect against free radicals while providing long-lasting softness.",
+        "pros": ["Gives a natural, hydrated pink glow","Lightweight and non-greasy texture","Provides instant brightening","Made Safe Certified (No toxins)","Keeps skin soft and supple"],
+        "cons": ["3.9 rating suggests performance varies by skin tone","May require reapplication for very dry skin","Scent (Beetroot) might be polarizing for some users"],
+        "rating": 3.9,
+        "isFeatured": false,
+        "tags": ["Top Rated","Luxury Pick"],
+        "bestFor": " Instant pink glow and daily hydration for all skin types",
+        "strength": "Moderate",
+        "keyBenefit": " Get a hydrated pink glow and instant brightening in a lightweight, non-greasy formula.",
+        "verdict": "Expert Choice",
+        "ingredients": "Beetroot Extract\nHyaluronic Acid",
+        "usage": "Wash your face with a sulfate-free face wash.\nPat dry and take an adequate amount of cream.\nApply evenly over face and neck.\nGently massage until completely absorbed.",
+        "whyPicked": " It bridges the gap between skincare and a glow-booster. We love that it's \"Made Safe\" certified, ensuring that the instant brightening effect comes from natural goodness rather than harsh chemicals"
+    },
 ];
 
 // Export for use in other files
