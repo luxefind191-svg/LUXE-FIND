@@ -310,7 +310,7 @@ const products = [
         "id": "makeup-skincare-2312",
         "title": "BAKE De-Tan Scrub Treatment Coffee Soap",
         "price": "₹349",
-        "image": "assets/bake-de-tan-soap.png",
+        "image": "https://m.media-amazon.com/images/I/61rc4Qz37sL._SL1500_.jpg",
         "link": "https://amzn.to/4uudNBu",
         "reviewLink": "bake-de-tan-soap.html",
         "category": ["Makeup & Skincare", "Glass Skin / Brightening"],
