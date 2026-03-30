@@ -349,6 +349,27 @@ const products = [
         "usage": "Wash your face with a sulfate-free face wash.\nPat dry and take an adequate amount of cream.\nApply evenly over face and neck.\nGently massage until completely absorbed.",
         "whyPicked": " It bridges the gap between skincare and a glow-booster. We love that it's \"Made Safe\" certified, ensuring that the instant brightening effect comes from natural goodness rather than harsh chemicals"
     },
+       {
+        "id": "lip-care-1254",
+        "title": "Mamaearth Moisture Matte Long Stay Lipstick Minis Gift Set (Bright and Bold)",
+        "price": "₹648",
+        "image": "https://m.media-amazon.com/images/I/61cLQP4CPLL._SL1200_.jpg",
+        "link": "https://amzn.to/3NRXkX6",
+        "category": ["Lip Care","Makeup & Skincare"],
+        "description": "A travel-friendly gift set featuring high-pigment mini lipsticks infused with Avocado Oil and Vitamin E for a comfortable, 8-hour moisture-lock wear.",
+        "pros": ["Incredible 12-hour staying power.","    Smudge-proof and transfer-resistant.","    Avocado oil prevents lip cracking/drying.","    Perfectly curated \"Bright and Bold\" shade range for Indian skin tones."],
+        "cons": ["* Minis are small (2.1g), though perfect for testing multiple shades.","    Requires a good oil-based cleanser for removal."],
+        "rating": 4.2,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice","Luxury Pick"],
+        "bestFor": "Long-wear daily use, travel-friendly touch-ups, and premium gifting.",
+        "strength": "Targeted",
+        "keyBenefit": "12 hours of bold, smudge-proof matte color that actually keeps your lips hydrated.",
+        "verdict": "Expert Choice",
+        "ingredients": "Avocado Oil, Vitamin E, Rich Matte Pigments.",
+        "usage": "1. Start from the center of your upper lip and move outwards.\n2. Repeat on the lower lip for an even, bold finish.\n3. Allow 30 seconds to set for maximum smudge-proof performance.",
+        "whyPicked": "It’s the ultimate \"Life-Proof\" lipstick. Whether it's a 12-hour workday or a special occasion, the mini size makes it perfect for the modern woman on the go."
+    },
 ];
 
 // Export for use in other files
