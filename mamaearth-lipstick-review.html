@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Mamaearth Moisture Matte Long Stay Lipstick Minis | LUXE FIND</title>
+    <meta name="description" content="Expert review of Mamaearth Moisture Matte Long Stay Lipstick Minis Gift Set. 12-hour wear, smudge-proof, and infused with Avocado Oil.">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --accent-gold-gradient: linear-gradient(135deg, #d4af37 0%, #f7e6a1 50%, #d4af37 100%);
+        }
+
+        body {
+            background: #fdfdfd;
+            color: var(--text-main);
+        }
+
+        .review-hero {
+            padding: 160px 0 80px;
+            background: radial-gradient(circle at 100% 0%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .product-visual-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-visual {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .product-visual:hover {
+            transform: scale(1.02) rotate(-1deg);
+        }
+
+        .badge-editorial {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            background: var(--primary-black);
+            color: var(--primary-white);
+            padding: 1rem 1.5rem;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: var(--font-heading);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+        }
+
+        .review-content h1 {
+            font-size: clamp(2.5rem, 5vw, 3.8rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #1a1a1a, #666);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rating-summary {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 2rem;
+        }
+
+        .stars {
+            color: #ff9800;
+            font-size: 1.2rem;
+        }
+
+        .rating-value {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-black);
+        }
+
+        .verdict-tag {
+            background: #ecfdf5;
+            color: #059669;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: var(--accent-gold);
+            margin-bottom: 2.5rem;
+            display: block;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-soft);
+            text-align: center;
+            transition: var(--transition-smooth);
+        }
+
+        .stat-card:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .stat-card i {
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+            display: block;
+        }
+
+        .stat-card span {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .stat-card strong {
+            font-size: 0.9rem;
+            color: var(--primary-black);
+        }
+
+        /* Review Sections */
+        .section-review {
+            padding: 100px 0;
+        }
+
+        .glass-panel {
+            background: white;
+            border: 1px solid var(--border-soft);
+            border-radius: 20px;
+            padding: 4rem;
+            box-shadow: var(--shadow-premium);
+        }
+
+        .pros-cons-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .pc-column h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .pc-column.pros h3 { color: #059669; }
+        .pc-column.cons h3 { color: #dc2626; }
+
+        .pc-list {
+            list-style: none;
+        }
+
+        .pc-list li {
+            margin-bottom: 1.2rem;
+            padding-left: 30px;
+            position: relative;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .pc-list li::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 3px;
+        }
+
+        .pros li::before { content: "\f00c"; color: #059669; }
+        .cons li::before { content: "\f00d"; color: #dc2626; }
+
+        /* Usage Stepper */
+        .usage-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .step-card {
+            background: #f9fafb;
+            padding: 2.5rem;
+            border-radius: 16px;
+            border: 1px solid transparent;
+            transition: var(--transition-smooth);
+        }
+
+        .step-card:hover {
+            border-color: var(--accent-gold);
+            background: white;
+        }
+
+        .step-num {
+            font-size: 3rem;
+            font-weight: 700;
+            color: rgba(212, 175, 55, 0.1);
+            margin-bottom: 1rem;
+            display: block;
+            font-family: var(--font-heading);
+        }
+
+        .step-card h4 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Final Verdict */
+        .verdict-box {
+            background: var(--primary-black);
+            color: white;
+            padding: 5rem;
+            border-radius: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verdict-box::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.1) 0%, transparent 40%);
+        }
+
+        .verdict-box h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: var(--accent-gold);
+        }
+
+        .verdict-box p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            opacity: 0.9;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        .btn-cta {
+            display: inline-block;
+            padding: 1.5rem 4rem;
+            background: var(--accent-gold-gradient);
+            color: var(--primary-black);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-radius: 50px;
+            transition: all 0.5s ease;
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.4);
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 20px 45px rgba(212, 175, 55, 0.5);
+            color: var(--primary-black);
+        }
+
+        @media (max-width: 992px) {
+            .hero-grid, .pros-cons-grid, .usage-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            .review-hero { padding-top: 120px; }
+            .verdict-box { padding: 3rem; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation (Reusing styles from global) -->
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#products">Collection</a></li>
+                <li><a href="category.html">Categories</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="review-hero">
+            <div class="container hero-grid">
+                <div class="product-visual-wrapper">
+                    <div class="badge-editorial">EDITOR'S<br>CHOICE</div>
+                    <img src="https://m.media-amazon.com/images/I/61cLQP4CPLL._SL1200_.jpg" 
+                         alt="Mamaearth Moisture Matte Mini Lipsticks" 
+                         class="product-visual">
+                </div>
+                
+                <div class="review-content">
+                    <div class="rating-summary">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-value">4.2/5</span>
+                        <span class="verdict-tag">Expert Choice</span>
+                    </div>
+
+                    <div style="display: flex; gap: 10px; margin-bottom: 1.5rem;">
+                        <span style="background: rgba(212,175,55,0.1); color: var(--accent-gold); padding: 4px 12px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Trending</span>
+                        <span style="background: rgba(212,175,55,0.1); color: var(--accent-gold); padding: 4px 12px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Editor's Choice</span>
+                        <span style="background: rgba(212,175,55,0.1); color: var(--accent-gold); padding: 4px 12px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Luxury Pick</span>
+                    </div>
+                    
+                    <h1>Mamaearth Moisture Matte Long Stay Lipstick Minis Gift Set</h1>
+                    <p class="price-tag">₹648</p>
+
+                    <div style="margin-bottom: 2rem; border-left: 3px solid var(--accent-gold); padding-left: 1.5rem;">
+                        <span style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted);">Best For</span>
+                        <p style="font-size: 1.1rem; font-weight: 500;">Long-wear daily use, travel-friendly touch-ups, and premium gifting.</p>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span>Longevity</span>
+                            <i class="fas fa-clock"></i>
+                            <strong>12 Hours</strong>
+                        </div>
+                        <div class="stat-card">
+                            <span>Key Oil</span>
+                            <i class="fas fa-seedling"></i>
+                            <strong>Avocado Oil</strong>
+                        </div>
+                        <div class="stat-card">
+                            <span>Finish</span>
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                            <strong>Creamy Matte</strong>
+                        </div>
+                    </div>
+
+                    <a href="https://amzn.to/3NRXkX6" target="_blank" class="btn-cta">Shop Now & Save</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Section -->
+        <section class="section-review bg-soft">
+            <div class="container">
+                <div class="glass-panel">
+                    <div class="section-header" style="text-align: left; margin-bottom: 0;">
+                        <span class="sub">In-Depth Analysis</span>
+                        <h2>The LUXE Verdict</h2>
+                    </div>
+                    
+                    <p style="font-size: 1.2rem; color: var(--text-muted); margin-top: 1.5rem; line-height: 1.8;">
+                        Expert Verdict: It’s the ultimate "Life-Proof" lipstick. Whether it's a 12-hour workday or a special occasion, the mini size makes it perfect for the modern woman on the go. Perfectly curated "Bright and Bold" shade range for Indian skin tones.
+                    </p>
+
+                    <div class="pros-cons-grid">
+                        <div class="pc-column pros">
+                            <h3><i class="fas fa-plus-circle"></i> Why We Love It</h3>
+                            <ul class="pc-list">
+                                <li>Incredible 12-hour staying power.</li>
+                                <li>Smudge-proof and transfer-resistant.</li>
+                                <li>Avocado oil prevents lip cracking/drying.</li>
+                                <li>Perfectly curated "Bright and Bold" shades.</li>
+                            </ul>
+                        </div>
+                        <div class="pc-column cons">
+                            <h3><i class="fas fa-minus-circle"></i> Considerations</h3>
+                            <ul class="pc-list">
+                                <li>Minis are small (2.1g), though perfect for testing multiple shades.</li>
+                                <li>Requires a good oil-based cleanser for removal.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Components Section -->
+        <section class="section-review">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub">Ingredients & Usage</span>
+                    <h2>Mastering the Application</h2>
+                </div>
+
+                <div class="usage-grid">
+                    <div class="step-card">
+                        <span class="step-num">01</span>
+                        <h4>Define</h4>
+                        <p>Start from the center of your upper lip and move outwards with precision.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-num">02</span>
+                        <h4>Filling</h4>
+                        <p>Repeat on the lower lip for an even, bold finish. Ensure full coverage.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-num">03</span>
+                        <h4>Set</h4>
+                        <p>Allow 30 seconds to set for maximum smudge-proof and transfer-resistant performance.</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 5rem; padding: 3rem; background: #fff; border-radius: 20px; border: 1px dashed var(--accent-gold); text-align: center;">
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-black);">Key Ingredients</h3>
+                    <p style="font-size: 1.1rem; letter-spacing: 1px; color: var(--accent-gold); font-weight: 600;">
+                        AVOCADO OIL • VITAMIN E • RICH MATTE PIGMENTS
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call to Action -->
+        <section class="section-review">
+            <div class="container">
+                <div class="verdict-box">
+                    <span class="sub" style="color: rgba(255,255,255,0.6);">The Bottom Line</span>
+                    <h2>Premium Beauty, Pocket-Sized.</h2>
+                    <p>"12 hours of bold, smudge-proof matte color that actually keeps your lips hydrated. A travel-friendly gift set featuring high-pigment mini lipsticks infused with Avocado Oil and Vitamin E for a comfortable wear."</p>
+                    <a href="https://amzn.to/3NRXkX6" target="_blank" class="btn-cta">Get the Set Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 0; background: #fff; border-top: 1px solid var(--border-soft);">
+        <div class="container" style="text-align: center;">
+            <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+            <p style="opacity: 0.6; font-size: 0.8rem; margin-top: 1rem; font-style: italic;">
+                Disclosure: As an affiliate, we may earn a commission from qualifying purchases.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/premium-bg.js"></script>
+    <script>
+        // Simple reveal animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.step-card, .stat-card, .glass-panel').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'all 0.8s cubic-bezier(0.23, 1, 0.32, 1)';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>
