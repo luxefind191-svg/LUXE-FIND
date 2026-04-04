@@ -1,7 +1,6 @@
 /**
  * LUXE FIND - Product Renderer (Dynamic Version)
- * 
- * Handles category section generation, visibility, and smooth auto-scrolling.
+ * * Handles category section generation, visibility, and smooth auto-scrolling.
  * Makes the website data-driven and easy to maintain.
  */
 
@@ -134,7 +133,13 @@ class ProductRenderer {
                             </div>
                         </div>
 
-                        <a href="${featured.link}" target="_blank" class="btn-buy-now" style="margin-top: 2rem;">Check Price on Amazon</a>
+                        <div style="background: #fff5f7; border: 2px dashed #f472b6; border-radius: 12px; padding: 1rem; margin: 1.5rem 0; text-align: center;">
+                            <p style="color: #be185d; font-weight: 700; margin-bottom: 0.5rem; font-size: 0.8rem;">✨ BOOSTER GUIDE ✨</p>
+                            <h4 style="color: #831843; margin-bottom: 0.5rem; font-size: 1.1rem;">The 7-Day Glass Skin Blueprint</h4>
+                            <a href="https://imojo.in/glassskin" target="_blank" style="background: #be185d; color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 0.85rem;">Get it for ₹99</a>
+                        </div>
+
+                        <a href="${featured.link}" target="_blank" class="btn-buy-now">Check Price on Amazon</a>
                     </div>
                 </div>
             </section>
@@ -173,6 +178,13 @@ class ProductRenderer {
                         </div>
                     </div>
                 </div>
+
+                <div style="padding: 0 1rem; margin-bottom: 1rem;">
+                    <a href="https://imojo.in/glassskin" target="_blank" style="display: block; background: #fff5f7; color: #be185d; text-align: center; padding: 0.5rem; border-radius: 6px; border: 1px solid #fbcfe8; text-decoration: none; font-size: 0.8rem; font-weight: 600;">
+                        🎁 Add Glass Skin Guide (₹99)
+                    </a>
+                </div>
+
                 ${p.reviewLink ? `<a href="${p.reviewLink}" class="btn-buy" style="margin-bottom: 0.5rem; background: var(--accent-gold); color: black;">Read Science Guide</a>` : ''}
                 <a href="${p.link}" target="_blank" class="btn-buy-now">Check Price on Amazon</a>
             </div>
