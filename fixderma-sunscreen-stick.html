@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The "Zero-Trace" Shield: Why Fixderma's Invisible Sunscreen Stick is a Game-Changer | LUXE FIND</title>
+    <meta name="description"
+        content="Discover the ultimate invisible SPF 50 protection. Expert review of Fixderma Shadow Sunscreen Stick for all Indian skin tones. No white cast, just glow.">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <style>
+        :root {
+            --article-bg: #ffffff;
+            --accent-blue: #007bff;
+            --accent-gold: #d4af37;
+            --text-dark: #1a1a1a;
+            --text-muted: #666666;
+            --border-light: rgba(0, 0, 0, 0.08);
+        }
+
+        .article-container {
+            max-width: 900px;
+            margin: 120px auto 60px;
+            padding: 0 2rem;
+            background: var(--article-bg);
+        }
+
+        .hero-banner {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 3rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            background: #f8f9fa;
+        }
+
+        .hero-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .article-header .category-tag {
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .article-header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .article-content {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .article-content p {
+            margin-bottom: 2rem;
+        }
+
+        .article-content h2 {
+            font-size: 2.2rem;
+            margin: 4rem 0 1.5rem;
+            color: var(--text-dark);
+            border-left: 4px solid var(--accent-blue);
+            padding-left: 1.5rem;
+        }
+
+        .ingredient-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .ingredient-card {
+            background: #fbfbfb;
+            padding: 2.5rem;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .ingredient-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .ingredient-card i {
+            font-size: 2.5rem;
+            color: var(--accent-blue);
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .ingredient-card h3 {
+            color: var(--text-dark);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .ingredient-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: var(--text-muted);
+        }
+
+        .usage-steps {
+            background: #f0f7ff;
+            padding: 3rem;
+            border-radius: 12px;
+            margin: 4rem 0;
+        }
+
+        .usage-steps h3 {
+            margin-bottom: 2rem;
+            color: var(--accent-blue);
+        }
+
+        .usage-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .usage-list li {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .step-num {
+            background: var(--accent-blue);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .verdict-box {
+            background: var(--text-dark);
+            color: white;
+            padding: 4rem 3rem;
+            border-radius: 16px;
+            margin: 5rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verdict-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-blue), #fff, var(--accent-blue));
+        }
+
+        .verdict-box h2 {
+            color: var(--accent-blue) !important;
+            border: none !important;
+            padding: 0 !important;
+            margin-top: 0 !important;
+            font-size: 2.5rem;
+        }
+
+        .verdict-box .price-tag {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 2rem 0;
+            display: block;
+            color: #fff;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1.2rem 3.5rem;
+            background: var(--accent-blue);
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            margin-top: 1rem;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 123, 255, 0.4);
+            background: #fff;
+            color: var(--accent-blue);
+        }
+
+        .highlight-text {
+            font-style: italic;
+            color: var(--text-muted);
+            border-left: 2px solid var(--accent-blue);
+            padding-left: 2rem;
+            margin: 3rem 0;
+            font-size: 1.3rem;
+        }
+
+        .star-rating {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                margin-top: 100px;
+                padding: 0 1.5rem;
+            }
+            .hero-banner {
+                height: 350px;
+            }
+            .verdict-box {
+                padding: 3rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html?type=Glass%20Skin%20%2F%20Brightening">Glass Skin</a></li>
+                <li><a href="category.html?type=Makeup%20%26%20Skincare">Skincare</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article-container">
+        <header class="article-header">
+            <span class="category-tag">High-Tech SPF Curation</span>
+            <h1>The "Zero-Trace" Shield: Why Fixderma's Invisible Sunscreen Stick is a Modern Essential</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem;">By the LUXE FIND Editorial Team | April 2026</p>
+        </header>
+
+        <div class="hero-banner">
+            <img src="assets/fixderma-sunscreen.png" alt="Fixderma Shadow Invisible Sunscreen Stick">
+        </div>
+
+        <section class="article-content">
+            <div class="highlight-text">
+                "The 'Zero-Trace' shield that stays invisible even over your makeup. It's the ultimate solution for Indian skin tones where traditional sunscreens often look ashy or gray."
+            </div>
+
+            <p>At LUXE FIND, we are obsessed with finding sun protection that doesn't feel like a chore. The <strong>Fixderma Shadow Invisible Sunscreen Stick SPF 50 PA+++</strong> is the answer to the prayer of anyone who has ever struggled with white casts, greasy residue, or the impossibility of reapplying SPF over makeup.</p>
+
+            <h2>Science-Backed UV Protection</h2>
+            <p>What makes this stick different is its combination of next-generation chemical filters and skin-nourishing antioxidants. It doesn't just block the sun; it repairs and protects the skin barrier simultaneously.</p>
+
+            <div class="ingredient-grid">
+                <div class="ingredient-card">
+                    <i class="fas fa-shield-virus"></i>
+                    <h3>Uvinul A Plus</h3>
+                    <p>An advanced photostable UV filter that provides high-level UVA protection. It’s the secret behind why this formula remains effective even under intense tropical sun.</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-droplet"></i>
+                    <h3>Avocado Oil</h3>
+                    <p>Rich in essential fatty acids, it ensures the stick glides on smoothly while providing deep nourishment without clogging pores.</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Vitamin E</h3>
+                    <p>A powerhouse antioxidant that neutralizes free radicals caused by sunlight and pollution, preventing premature aging.</p>
+                </div>
+            </div>
+
+            <h2>Why It Earned Its "Luxe Find" Status</h2>
+            <p>The innovation lies in the <strong>Invisible Finish</strong>. In a market saturated with thick, pasty creams, Fixderma has created a completely clear, gel-based solid that leaves absolutely zero trace on the skin. It’s non-comedogenic, making it safe for acne-prone skin, and its water-resistant properties make it perfect for the active life.</p>
+            
+            <div class="usage-steps">
+                <h3>Expert Application Guide</h3>
+                <ul class="usage-list">
+                    <li><span class="step-num">1</span> Twist the base to reveal the stick.</li>
+                    <li><span class="step-num">2</span> Glide directly onto face and neck, ensuring multiple passes for full coverage.</li>
+                    <li><span class="step-num">3</span> Reapply every 2 hours, especially if outdoors or over full-coverage makeup.</li>
+                </ul>
+            </div>
+
+            <div class="verdict-box">
+                <div class="star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="category-tag" style="color: var(--accent-blue);">The Luxe Verdict</span>
+                <h2>Zero Trace. Total Protection.</h2>
+                <p>For just <strong>₹399</strong>, this is the smartest luxury investment you can make for your skin's health. It’s portable, mess-free, and finally makes reapplication possible anytime, anywhere.</p>
+                <div class="price-tag">₹399</div>
+                <p>Professional SPF. Redefined for Indian Skin.</p>
+                <a href="https://amzn.to/4ldHORI" class="cta-btn" target="_blank">Check Availability on Amazon</a>
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+                <p class="affiliate-disclosure">Disclosure: As an affiliate, we may earn a commission from qualifying
+                    purchases made through our links, at no extra cost to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js?v=2"></script>
+</body>
+
+</html>
