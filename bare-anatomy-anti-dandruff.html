@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flake-Free Formula: Bare Anatomy Anti-Dandruff Shampoo Review | LUXE FIND</title>
+    <meta name="description"
+        content="Expert review of Bare Anatomy Anti-Dandruff Shampoo. Controls oily scalp and flakes with Salicylic Acid and Biotin. High-performance hair care for Indian hair.">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <style>
+        :root {
+            --article-bg: #ffffff;
+            --accent-teal: #008080;
+            --accent-gold: #d4af37;
+            --text-dark: #1a1a1a;
+            --text-muted: #666666;
+            --border-light: rgba(0, 0, 0, 0.08);
+        }
+
+        .article-container {
+            max-width: 900px;
+            margin: 120px auto 60px;
+            padding: 0 2rem;
+            background: var(--article-bg);
+        }
+
+        .hero-banner {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 3rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-banner img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .article-header .category-tag {
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .article-header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .article-content {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .article-content p {
+            margin-bottom: 2rem;
+        }
+
+        .article-content h2 {
+            font-size: 2.2rem;
+            margin: 4rem 0 1.5rem;
+            color: var(--text-dark);
+            border-left: 4px solid var(--accent-teal);
+            padding-left: 1.5rem;
+        }
+
+        .ingredient-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .ingredient-card {
+            background: #fbfbfb;
+            padding: 2.5rem;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .ingredient-card:hover {
+            border-color: var(--accent-teal);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .ingredient-card i {
+            font-size: 2.5rem;
+            color: var(--accent-teal);
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .ingredient-card h3 {
+            color: var(--text-dark);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .ingredient-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: var(--text-muted);
+        }
+
+        .usage-steps {
+            background: #f0f7f7;
+            padding: 3rem;
+            border-radius: 12px;
+            margin: 4rem 0;
+        }
+
+        .usage-steps h3 {
+            margin-bottom: 2rem;
+            color: var(--accent-teal);
+        }
+
+        .usage-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .usage-list li {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .step-num {
+            background: var(--accent-teal);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .verdict-box {
+            background: var(--text-dark);
+            color: white;
+            padding: 4rem 3rem;
+            border-radius: 16px;
+            margin: 50px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verdict-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--accent-teal), #fff, var(--accent-teal));
+        }
+
+        .verdict-box h2 {
+            color: var(--accent-teal) !important;
+            border: none !important;
+            padding: 0 !important;
+            margin-top: 0 !important;
+            font-size: 2.5rem;
+        }
+
+        .verdict-box .price-tag {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 2rem 0;
+            display: block;
+            color: #fff;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1.2rem 3.5rem;
+            background: var(--accent-teal);
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            margin-top: 1rem;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 128, 128, 0.4);
+            background: #fff;
+            color: var(--accent-teal);
+        }
+
+        .highlight-text {
+            font-style: italic;
+            color: var(--text-muted);
+            border-left: 2px solid var(--accent-teal);
+            padding-left: 2rem;
+            margin: 3rem 0;
+            font-size: 1.3rem;
+        }
+
+        .star-rating {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                margin-top: 100px;
+                padding: 0 1.5rem;
+            }
+            .hero-banner {
+                height: 350px;
+            }
+            .verdict-box {
+                padding: 3rem 1.5rem;
+            }
+        }
+
+        /* Bonus Guide Callout Styling */
+        .bonus-mini-callout {
+            margin: 3rem auto;
+            max-width: 600px;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border-radius: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .bonus-mini-callout::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .bonus-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+
+        .bonus-mini-callout h4 {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 1rem;
+            font-family: var(--font-heading);
+            position: relative;
+            z-index: 1;
+        }
+
+        .bonus-mini-callout p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.8) !important;
+            margin-bottom: 2rem !important;
+            line-height: 1.5;
+            position: relative;
+            z-index: 1;
+        }
+
+        .glow-buy-btn {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: linear-gradient(90deg, #d4af37, #f1c40f, #d4af37);
+            background-size: 200% auto;
+            color: #000;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 50px;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+            border: none;
+            position: relative;
+            z-index: 1;
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .glow-buy-btn:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.5);
+            background: #fff;
+            color: #d4af37;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">LUXE <span>FIND</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html?type=Anti-Dandruff">Dandruff</a></li>
+                <li><a href="category.html?type=Oil%20Control">Oil Control</a></li>
+                <li><a href="category.html?type=Hair%20Growth">Hair Growth</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="article-container">
+        <header class="article-header">
+            <span class="category-tag">Advanced Scalp Care</span>
+            <h1>The Flake-Free Formula: Why Bare Anatomy's Anti-Dandruff Shampoo is a Science-Backed Essential</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem;">By the LUXE FIND Editorial Team | April 2026</p>
+        </header>
+
+        <div class="hero-banner">
+            <img src="https://m.media-amazon.com/images/I/51pQnOebkoL._SL1000_.jpg" alt="Bare Anatomy Anti-Dandruff Shampoo">
+        </div>
+
+        <section class="article-content">
+            <div class="highlight-text">
+                "Finding an anti-dandruff shampoo that actually works without stripping your hair of its soul is a rare feat. Bare Anatomy has cracked the code with a formula that balances exfoliation and nourishment."
+            </div>
+
+            <p>At LUXE FIND, we believe that scalp health is the foundation of beautiful hair. Dandruff isn't just a cosmetic issue; it's often a sign of an unbalanced scalp microbiome. The <strong>Bare Anatomy Anti-Dandruff Shampoo</strong> is a high-performance solution designed to restore that balance using a trio of clinically proven ingredients: Salicylic Acid, Piroctone Olamine, and Biotin.</p>
+
+            <h2>Triple-Action Scalp Therapy</h2>
+            <p>What sets this shampoo apart is its multi-dimensional approach. Most drugstore options focus solely on killing fungus, often leaving the hair dry and brittle. Bare Anatomy's formula addresses the symptoms, the cause, and the health of the hair fiber simultaneously.</p>
+
+            <div class="ingredient-grid">
+                <div class="ingredient-card">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Salicylic Acid</h3>
+                    <p>A chemist-favorite exfoliant (BHA) that gently dissolves the "glue" holding dead skin flakes together, ensuring a clear, breathable scalp.</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-bacteria"></i>
+                    <h3>Piroctone Olamine</h3>
+                    <p>A powerful antifungal agent that targets the Malassezia fungus—the primary culprit behind dandruff—reducing inflammation and itching.</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-plus"></i>
+                    <h3>Biotin (Vitamin B7)</h3>
+                    <p>Unlike traditional treatments, this formula includes Biotin to reinforce the hair's keratin structure, promoting resilience and preventing breakage.</p>
+                </div>
+            </div>
+
+            <h2>Expert Analysis: Controls Oil effectively</h2>
+            <p>For those with an oily scalp, this shampoo is a game-changer. The 0.2% Salicylic Acid concentration is expertly calibrated—strong enough to control sebum production but gentle enough for regular use. It leaves the scalp feeling refreshed and "squeaky clean" without the harsh tightness associated with cheaper sulfate-heavy alternatives.</p>
+            
+            <div class="usage-steps">
+                <h3>Expert Application Guide</h3>
+                <ul class="usage-list">
+                    <li><span class="step-num">1</span> Thoroughly wet your hair and scalp with lukewarm water (not hot!).</li>
+                    <li><span class="step-num">2</span> Take a coin-sized amount and massage it strictly into the scalp for 2–3 minutes.</li>
+                    <li><span class="step-num">3</span> Let the active ingredients sit for 60 seconds before rinsing completely.</li>
+                </ul>
+            </div>
+
+            <div class="verdict-box">
+                <div class="star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="category-tag" style="color: var(--accent-teal);">The Luxe Verdict</span>
+                <h2>Freedom from Flakes. Strength from Within.</h2>
+                <p>For just <strong>₹249</strong>, Bare Anatomy offers a level of scientific sophistication rarely seen at this price point. It’s the ultimate budget-luxe choice for anyone battling oily dandruff.</p>
+                <div class="price-tag">₹249</div>
+                <p>Cleanse. Control. Create.</p>
+                
+                <div class="bonus-mini-callout">
+                    <span class="bonus-label">✨ Premium Guide Exclusive</span>
+                    <h4>Ultimate Glo-Up Guide 2026</h4>
+                    <p>Unlock the secret to the most attractive physique and skin. Our 2026 edition is now available.</p>
+                    <a href="https://luxefind191.myinstamojo.com/product/luxefind-ultimate-glo-up-guide-2026-the-aest/" 
+                       class="glow-buy-btn" target="_blank">Download the Guide</a>
+                </div>
+
+                <a href="https://amzn.to/4bU1lUG" class="cta-btn" target="_blank"> Check Availability on Amazon</a>
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUXE FIND. All Rights Reserved.</p>
+                <p class="affiliate-disclosure">Disclosure: As an affiliate, we may earn a commission from qualifying
+                    purchases made through our links, at no extra cost to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js?v=2"></script>
+</body>
+
+</html>
