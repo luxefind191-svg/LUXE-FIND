@@ -373,6 +373,27 @@ const products = [
         "usage": "1. Start from the center of your upper lip and move outwards.\n2. Repeat on the lower lip for an even, bold finish.\n3. Allow 30 seconds to set for maximum smudge-proof performance.",
         "whyPicked": "It’s the ultimate \"Life-Proof\" lipstick. Whether it's a 12-hour workday or a special occasion, the mini size makes it perfect for the modern woman on the go."
     },
+       {
+        "id": "anti-dandruff-2233",
+        "title": "Indulekha Svetakutaja Ayurvedic Anti-Dandruff Oil",
+        "price": "₹306",
+        "image": "https://m.media-amazon.com/images/I/61m47CGZeJL._SL1000_.jpg",
+        "link": "https://amzn.to/4cEQXib",
+        "category": ["Anti-Dandruff","Hair Growth"],
+        "description": ": A clinically proven Ayurvedic medicinal oil formulated with 8 powerful herbs and essential oils, matured under natural sunlight for 7 days to maximize potency.",
+        "pros": ["* Clinically proven results in 4 weeks","    Svetakutaja-Comb applicator prevents wastage","    100% natural fragrance and color","    Effective on both mild and severe dandruff"],
+        "cons": ["* Strong herbal scent (authentic but intense)","    Needs consistent use to see full results"],
+        "rating": 4.2,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Severe Flakes & Itchy Scalp",
+        "strength": "Targeted",
+        "keyBenefit": "100% Ayurvedic solution clinically proven to clear dandruff in 4 weeks.",
+        "verdict": "Expert Choice",
+        "ingredients": "* Svetakutaja (Anti-fungal powerhouse)\n\n    Amla (Vitamin C for scalp health)\n\n    Virgin Coconut Oil (Base nourishment)\n\n    Aloe Vera (Soothing relief)",
+        "usage": "1. Attach the Svetakutaja-Comb applicator to the bottle.\n2. Squeeze the bottle and comb directly onto the scalp.\n3. Massage gently with fingertips for 2 minutes.\n4. Leave for 1-2 hours (or overnight) before washing with a mild cleanser.",
+        "whyPicked": "We chose this because of its unique 7-day sunlight maturation process. It’s rare to find a budget-friendly oil (₹306) that follows authentic Ayurvedic traditions while being free from parabens, sulfates, and synthetic perfumes."
+    },
 ];
 
 // Export for use in other files
