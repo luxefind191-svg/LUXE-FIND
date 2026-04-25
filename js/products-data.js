@@ -288,10 +288,10 @@ const products = [
     // --- CATEGORY 7: MAKEUP & SKINCARE ---
      {
         "id": "makeup-skincare-1054",
-        "title": "Fixderma Shadow Invisible Sunscreen Stick SPF 50 PA+++",
-        "price": "₹399",
-        "image": "https://m.media-amazon.com/images/I/51FSnymPlzL._SL1200_.jpg",
-        "link": "https://amzn.to/4ldHORI",
+        "title": "Earth Rhythm Daily Dew Cooling Sunstick SPF 60 PA ++++",
+        "price": "₹509",
+        "image": "https://m.media-amazon.com/images/I/71kRCWyENhL._SL1500_.jpg",
+        "link": "https://amzn.to/4d4Lhj1",
         "reviewLink": "fixderma-sunscreen-stick.html",
         "category": ["Makeup & Skincare"],
         "description": "A lightweight, non-comedogenic sunscreen stick that provides broad-spectrum UVA/UVB protection with an invisible, natural finish.",
