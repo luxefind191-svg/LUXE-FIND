@@ -395,6 +395,27 @@ const products = [
         "usage": "1. Attach the Svetakutaja-Comb applicator to the bottle.\n2. Squeeze the bottle and comb directly onto the scalp.\n3. Massage gently with fingertips for 2 minutes.\n4. Leave for 1-2 hours (or overnight) before washing with a mild cleanser.",
         "whyPicked": "We chose this because of its unique 7-day sunlight maturation process. It’s rare to find a budget-friendly oil (₹306) that follows authentic Ayurvedic traditions while being free from parabens, sulfates, and synthetic perfumes."
     },
+      {
+        "id": "oil-control-2289",
+        "title": "PORTO GROUP 2-in-1 Long Handle Soft Silicone Back Body Scrubber",
+        "price": "₹329",
+        "image": "https://m.media-amazon.com/images/I/71UQVvFyBtL._SL1500_.jpg",
+        "link": "https://amzn.to/4wzTDH7",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "This dual-sided, ergonomic body scrubber features a 45cm extended non-slip long handle alongside a handheld manual palm brush crafted from durable, quick-drying, BPA-free silicone designed for full-body exfoliation and deep massage therapy.",
+        "pros": ["2-in-1 design includes both a long-reach handle and a precise handheld scrubber.","100% hygienic, BPA-free silicone that dries fast and resists mold/bacterial buildup.","Excellent for clearing dead skin, preventing ingrown hairs, and reducing back acne.","Non-slip, ergonomic handle ensures an easy grip even when covered in soapy lather.","Eco-friendly alternative that lasts significantly longer than standard mesh loofahs."],
+        "cons": ["Manual operation requires a bit of physical effort for a deep lather compared to electric brushes.","Silicone bristles are ultra-gentle, which might feel too soft for those used to harsh nylon bristles."],
+        "rating": 3.9,
+        "isFeatured": false,
+        "tags": ["Top Rated","Luxury Pick"],
+        "bestFor": "Hard-to-reach back acne, deep exfoliation, and replacing unhygienic loofahs.",
+        "strength": "Targeted",
+        "keyBenefit": "Effortlessly reach every inch of your back to banish bacne and reveal smoother, glowing skin.",
+        "verdict": "Expert Choice",
+        "ingredients": "100% Food-Grade, BPA-Free Silicone",
+        "usage": "Wet the silicone scrubber with warm water and apply your favorite body wash directly to the bristles.\n\nUse the long-handled brush to easily scrub your back, shoulders, and lower legs.\n\nSwitch to the handheld palm scrubber for high-friction exfoliation on your chest, arms, and rough elbows.\n\nRinse thoroughly with water, shake off excess moisture, and hang it by the built-in hook to air dry.",
+        "whyPicked": "Let’s be honest: your traditional bath loofah is a breeding ground for bacteria, and missing spots on your back causes breakouts you can’t easily treat. We chose this because its extra-long reach and hygienic silicone design don't just clean your skin—they give you the confidence of a flawless, acne-free back without the awkward shower gymnastics."
+    },
 ];
 
 // Export for use in other files
