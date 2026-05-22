@@ -417,6 +417,27 @@ const products = [
         "usage": "Wet the silicone scrubber with warm water and apply your favorite body wash directly to the bristles.\n\nUse the long-handled brush to easily scrub your back, shoulders, and lower legs.\n\nSwitch to the handheld palm scrubber for high-friction exfoliation on your chest, arms, and rough elbows.\n\nRinse thoroughly with water, shake off excess moisture, and hang it by the built-in hook to air dry.",
         "whyPicked": "Let’s be honest: your traditional bath loofah is a breeding ground for bacteria, and missing spots on your back causes breakouts you can’t easily treat. We chose this because its extra-long reach and hygienic silicone design don't just clean your skin—they give you the confidence of a flawless, acne-free back without the awkward shower gymnastics."
     },
+      {
+        "id": "makeup-skincare-9341",
+        "title": "mCaffeine Perfume Body Lotion Combo - Sweet Escape & Summer Breeze (300ml x 2)",
+        "price": "₹698",
+        "image": "https://m.media-amazon.com/images/I/61OCCtmR6tL._SL1100_.jpg",
+        "link": "https://amzn.to/4nRdSwc",
+        "category": ["Makeup & Skincare"],
+        "description": "This PETA-certified, dermatologically tested daily body lotion combo pairs deep-conditioning Shea and Cocoa butters with barrier-repairing Niacinamide and Caffeine to deliver deep winter moisturization in a fast-absorbing, non-sticky formula.",
+        "pros": ["Deeply hydrates skin with Cocoa and Shea Butter without any greasy residue","Formulated with Niacinamide to improve skin elasticity and even out skin tone","Lightweight and fast-absorbing formula preferred by 97% of users","Comes in a cost-effective pack of two with distinct premium fragrance profiles","Free from artificial colors, parabens, SLS, and toxic chemicals"],
+        "cons": ["The dual bottle setup (600ml total volume) makes it bulky for travel purposes","Distinct perfume notes (Sweet Escape and Summer Breeze) might not suit individuals highly sensitive to scents"],
+        "rating": 4.4,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending","Luxury Pick"],
+        "bestFor": "Winter Dry Skin & Uneven Skin Tone",
+        "strength": "Targeted",
+        "keyBenefit": "Deeply hydrates and evens skin tone with a lightweight, non-sticky feel and luxurious dual fragrances.",
+        "verdict": "Expert Choice",
+        "ingredients": "Niacinamide (Vitamin B3)\n\nCocoa Butter\n\nShea Butter\n\nCaffeine",
+        "usage": "Pump a generous amount of lotion onto your palms.\n\nApply evenly all over the body, focusing on dry areas like elbows and knees.\n\nMassage gently in upward circular motions until fully absorbed.\n\nUse daily after a shower or whenever skin feels dry for best results.",
+        "whyPicked": "It completely breaks the myth that deep winter hydration has to mean sticky, heavy formulas—97% of users agree it absorbs instantly while wrapping the skin in incredible, layerable luxury fragrances."
+    },
 ];
 
 // Export for use in other files
