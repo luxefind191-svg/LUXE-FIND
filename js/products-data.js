@@ -439,6 +439,27 @@ const products = [
         "usage": "Pump a generous amount of lotion onto your palms.\n\nApply evenly all over the body, focusing on dry areas like elbows and knees.\n\nMassage gently in upward circular motions until fully absorbed.\n\nUse daily after a shower or whenever skin feels dry for best results.",
         "whyPicked": "It completely breaks the myth that deep winter hydration has to mean sticky, heavy formulas—97% of users agree it absorbs instantly while wrapping the skin in incredible, layerable luxury fragrances."
     },
+       {
+        "id": "glass-skin-brightening-2334",
+        "title": "Maybelline New York Fit Me Glow BB Cream (SPF 50, Shade 20)",
+        "price": "₹343",
+        "image": "https://m.media-amazon.com/images/I/51Y51DS9OoL._SL1500_.jpg",
+        "link": "https://amzn.to/43uqVtU",
+        "category": ["Glass Skin / Brightening","Makeup & Skincare"],
+        "description": "This non-comedogenic, vegan BB cream features a 90% skincare-infused base that delivers 24-hour hydration while shielding the skin with broad-spectrum SPF 50.",
+        "pros": ["High SPF 50 protection prevents sun damage and premature aging.","Infused with 90% skincare base (Niacinamide + Hyaluronic Acid).","Lightweight, non-comedogenic formula that won't clog pores.","Tailored beautifully for Indian skin tones.","Vegan and budget-friendly."],
+        "cons": ["Provides natural, light-to-medium coverage (not meant for heavy acne scar concealment).","Dewy finish might require a setting powder for excessively oily skin types."],
+        "rating": 4.7,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending","Editor's Choice"],
+        "bestFor": "Dull, dry skin looking for a daily 2-in-1 glow and sun protection.",
+        "strength": "Targeted",
+        "keyBenefit": "Combines maximum SPF 50 protection with a 90% skincare base for an instant, dewy glass-skin finish.",
+        "verdict": "Expert Choice",
+        "ingredients": "Hyaluronic Acid (for 24H deep hydration)\n\nNiacinamide (to improve skin tone and texture over time)",
+        "usage": "Dot the BB cream evenly across a clean, moisturized face.\n\nBlend seamlessly using your fingertips, a beauty blender, or a makeup brush.\n\nLayer slightly on areas needing extra coverage, and enjoy the dewy glow all day.",
+        "whyPicked": "Tired of choosing between a chalky sunscreen white-cast and heavy, suffocating foundations? We chose this because it bridges the gap perfectly—giving your skin a breath of fresh air, a stunning dewy luminosity, and ultimate sun protection all in one single, budget-friendly tube."
+    },
 ];
 
 // Export for use in other files
