@@ -461,6 +461,27 @@ const products = [
         "usage": "Dot the BB cream evenly across a clean, moisturized face.\n\nBlend seamlessly using your fingertips, a beauty blender, or a makeup brush.\n\nLayer slightly on areas needing extra coverage, and enjoy the dewy glow all day.",
         "whyPicked": "Tired of choosing between a chalky sunscreen white-cast and heavy, suffocating foundations? We chose this because it bridges the gap perfectly—giving your skin a breath of fresh air, a stunning dewy luminosity, and ultimate sun protection all in one single, budget-friendly tube."
     },
+     {
+        "id": "lip-care-3841",
+        "title": "Character Two in One Lipstick & Lipliner (CTO202, 1.6g)",
+        "price": "₹409",
+        "image": "https://m.media-amazon.com/images/I/51UOoVxgu+L._SL1000_.jpg",
+        "link": "https://amzn.to/4ohy7n3",
+        "category": ["Lip Care","Makeup & Skincare"],
+        "description": "This dual-functioning makeup essential combines a precise lipliner and an intense matte lipstick in one sleek stick, infused with advanced hydrating agents to ensure a smudge-proof finish that lasts.",
+        "pros": ["Convenient 2-in-1 liner and lipstick design","Enriched with Squalane and Vitamin E for deep hydration","Smudge-proof and long-lasting formula","Intense, full-coverage pigment payoff","Alcohol-free and suitable for all skin tones"],
+        "cons": ["Leaves a semi-matte finish rather than an ultra-flat retro matte","    Small 1.6g product size requires careful usage to avoid breaking the tip"],
+        "rating": 4.6,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending"],
+        "bestFor": "Dry lips needing long-wear color without cracking.",
+        "strength": "Targeted",
+        "keyBenefit": "Get perfectly defined, intensely pigmented matte lips that stay hydrated all day long.",
+        "verdict": "Expert Choice",
+        "ingredients": "Vitamin E (Antioxidant Care)\n\nSqualane (Deep Hydration)\n\nHyaluronic Acid (Moisture Retention)",
+        "usage": "Line the outer contours of your lips using the precise tip to define the shape.\n\nFill in the rest of your lips using the broader edge for full, intense color coverage.\n\nAllow a few seconds to set for a transfer-resistant, plush matte finish.",
+        "whyPicked": "Stop choosing between a matte finish and hydrated lips. Most matte lipsticks betray you by midday, leaving your lips flaky and uncomfortable. We love this because the Squalane-infused formula hugs your lips in velvety comfort, giving you that fierce, crisp look without the painful dryness."
+    },
 ];
 
 // Export for use in other files
