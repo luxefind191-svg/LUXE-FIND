@@ -444,7 +444,7 @@ const products = [
         "title": "Maybelline New York Fit Me Glow BB Cream (SPF 50, Shade 20)",
         "price": "₹343",
         "image": "https://m.media-amazon.com/images/I/51Y51DS9OoL._SL1500_.jpg",
-        "link": "https://amzn.to/43uqVtU",
+        "link": "https://amzn.to/4wW9HTI",
         "reviewLink": "maybelline-fit-me-bb-cream.html",
         "category": ["Glass Skin / Brightening","Makeup & Skincare"],
         "description": "This non-comedogenic, vegan BB cream features a 90% skincare-infused base that delivers 24-hour hydration while shielding the skin with broad-spectrum SPF 50.",
