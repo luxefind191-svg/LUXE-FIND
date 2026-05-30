@@ -422,7 +422,7 @@ const products = [
         "title": "mCaffeine Perfume Body Lotion Combo - Sweet Escape & Summer Breeze (300ml x 2)",
         "price": "₹698",
         "image": "https://m.media-amazon.com/images/I/61OCCtmR6tL._SL1100_.jpg",
-        "link": "https://amzn.to/4nRdSwc",
+        "link": "https://amzn.to/4wZ3yX0",
         "reviewLink": "mcaffeine-body-lotion-combo.html",
         "category": ["Makeup & Skincare"],
         "description": "This PETA-certified, dermatologically tested daily body lotion combo pairs deep-conditioning Shea and Cocoa butters with barrier-repairing Niacinamide and Caffeine to deliver deep winter moisturization in a fast-absorbing, non-sticky formula.",
