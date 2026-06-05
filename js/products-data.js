@@ -483,6 +483,27 @@ const products = [
         "usage": "Line the outer contours of your lips using the precise tip to define the shape.\n\nFill in the rest of your lips using the broader edge for full, intense color coverage.\n\nAllow a few seconds to set for a transfer-resistant, plush matte finish.",
         "whyPicked": "Stop choosing between a matte finish and hydrated lips. Most matte lipsticks betray you by midday, leaving your lips flaky and uncomfortable. We love this because the Squalane-infused formula hugs your lips in velvety comfort, giving you that fierce, crisp look without the painful dryness."
     },
+      {
+        "id": "oil-control-9142",
+        "title": "Khadi Organique Tea Tree Face Wash (Anti-Acne & Tan Removal) - 100 ml",
+        "price": "₹249",
+        "image": "https://m.media-amazon.com/images/I/61YQTyjtdDL._SL1500_.jpg",
+        "link": "https://amzn.to/4us4roI",
+        "category": ["Oil Control","Acne & Pimples"],
+        "description": "This sulfate- and paraben-free face wash utilizes an antioxidant-rich botanical blend to eliminate acne-causing bacteria, regulate excess sebum production, and gently exfoliate dead skin cells to correct uneven skin tone.",
+        "pros": ["Free from harsh sulfates, silicones, parabens, and synthetic colors","Powerful anti-bacterial action from natural tea tree and basil extracts","Dual-action formula that targets both active acne and skin tanning","Deeply cleanses pores without stripping away vital moisture"],
+        "cons": ["Scent profile leans heavily toward Vitamin C/Citrus rather than pure tea tree","May require consistent use over 2-3 weeks to show dramatic tan removal","The gel texture might require a bit more rinsing to clean completely off normal-to-dry skin types"],
+        "rating": 4.4,
+        "isFeatured": false,
+        "tags": ["Top Rated","Trending","Luxury Pick"],
+        "bestFor": "Acne-Prone Skin & Stubborn Tan",
+        "strength": "Targeted",
+        "keyBenefit": "Clears stubborn acne and fades dark spots to bring back your skin's natural, confident glow.",
+        "verdict": "Expert Choice",
+        "ingredients": "Tea Tree Oil\n\nBasil Extract\n\nAloe Vera\n\nCucumber Extract\n\nAntioxidants",
+        "usage": "Wet your face and neck thoroughly with lukewarm water.\n\nSqueeze a small amount of face wash onto your fingertips.\n\nGently massage in a circular motion, focusing on acne-prone areas and zones with visible tanning.\n\nWork up a mild lather, rinse off completely with water, and pat dry. Use morning and evening for best results.",
+        "whyPicked": "Breakouts don't just affect your skin; they take a toll on your day-to-day confidence. We love this formula because it tackles the root cause of acne while actively fading the stubborn tan and dark marks left behind. It gives you clean, calm, and visibly clearer skin without relying on harsh, scary chemicals."
+    },
 ];
 
 // Export for use in other files
