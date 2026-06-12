@@ -504,6 +504,27 @@ const products = [
         "usage": "Wet your face and neck thoroughly with lukewarm water.\n\nSqueeze a small amount of face wash onto your fingertips.\n\nGently massage in a circular motion, focusing on acne-prone areas and zones with visible tanning.\n\nWork up a mild lather, rinse off completely with water, and pat dry. Use morning and evening for best results.",
         "whyPicked": "Breakouts don't just affect your skin; they take a toll on your day-to-day confidence. We love this formula because it tackles the root cause of acne while actively fading the stubborn tan and dark marks left behind. It gives you clean, calm, and visibly clearer skin without relying on harsh, scary chemicals."
     },
+     {
+        "id": "makeup-skincare-5065",
+        "title": "HUDA ZONE All-in-1 Beauty HD Makeup Kit Combo (Set of 5)",
+        "price": "₹549",
+        "image": "https://m.media-amazon.com/images/I/51+bfYKbVqL._SL1080_.jpg",
+        "link": "https://amzn.to/4onUXt9",
+        "category": ["Makeup & Skincare"],
+        "description": "A comprehensive 5-piece high-definition makeup kit featuring a pore-filling matte gel primer (35g), a 24-hour waterproof stay-perfect serum foundation with SPF 30 (30ml), a versatile 4-in-1 contour and highlight stick, a waterproof soft cream liquid blush, and a hydrating makeup fixer to lock the look in place.",
+        "pros": ["Incredible value for money (5 full products for ₹549)","24-hour waterproof and sweat-resistant formulas","Alcohol-free and skin-friendly for combination skin","Includes built-in sun protection (SPF 30)","Highly multi-functional (especially the 4-in-1 contour stick)"],
+        "cons": ["Limited shade customization for the foundation (medium coverage/universal tone)","Liquid blush requires quick blending before it sets"],
+        "rating": 5,
+        "isFeatured": false,
+        "tags": ["Trending","Editor's Choice"],
+        "bestFor": "Complete effortless daily glam and beginners looking for a flawless, long-lasting look without buying 10 different products.",
+        "strength": "Targeted",
+        "keyBenefit": "Get a flawless, water-resistant HD studio finish in minutes with 5 full-sized essentials that look like professional makeup but cost less than a single premium product.",
+        "verdict": "Expert Choice",
+        "ingredients": "Alcohol-Free base, HD Mattifying Gels, Hydrating Serum Compounds, SPF 30 Mineral Protectors, Fine-milled Pink Pigments.",
+        "usage": "Prep: Smooth the transparent gel primer over clean skin to blur pores and fine lines.\n\nBase: Dot and blend the Stay Perfect Serum Foundation across the face for medium coverage.\n\nSculpt & Flush: Use the 4-in-1 contour stick to define cheekbones, then dot the Pink Liquid Blush onto the apples of your cheeks.\n\nLock: Mist the Makeup Fixer over the entire face to hydrate, nourish, and seal your makeup for 24 hours.",
+        "whyPicked": "Stop overspending on individual makeup pieces that don't match. This all-in-one powerhouse gives you a high-definition, poreless look that actually lasts for 24 hours. It’s the ultimate \"shortcut to confidence\" for women and girls who want to look effortlessly put together every single day without the luxury price tag."
+    },
 ];
 
 // Export for use in other files
